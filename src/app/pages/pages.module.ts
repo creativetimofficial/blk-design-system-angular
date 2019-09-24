@@ -15,6 +15,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
+import { PopoverModule } from 'ngx-bootstrap/popover';
 
 
 import { IndexComponent } from './index/index.component';
@@ -31,6 +32,7 @@ import { LandingpageComponent } from './examples/landingpage/landingpage.compone
         BsDropdownModule.forRoot(),
         ProgressbarModule.forRoot(),
         TooltipModule.forRoot(),
+        PopoverModule.forRoot(),
         CollapseModule.forRoot(),
         JwBootstrapSwitchNg2Module,
         TabsModule.forRoot(),

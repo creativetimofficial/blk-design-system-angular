@@ -7,8 +7,8 @@
     <div class="navbar-translate">
       <a
         class="navbar-brand"
-        href="https://demos.creative-tim.com/blk-design-system/index.html"
         placement="bottom"
+        [routerLink]="['/home']"
         target="_blank"
         tooltip="Designed and Coded by Creative Tim"
       >
@@ -1251,28 +1251,31 @@
           <div class="col-md-6">
             <h4 class="mb-5 mt-3">Popovers</h4>
             <button
-              class="btn btn-default btn-sm"
+              class="btn btn-default btn-sm mr-1"
               container="body"
               placement="top"
+              popoverTitle="Popover on top"
               popover="Here will be some very useful information about his popover."
               type="button"
             >
               On top
             </button>
             <button
-              class="btn btn-default btn-sm"
+              class="btn btn-default btn-sm mr-1"
               container="body"
               placement="right"
+              popoverTitle="Popover on right"
               popover="Here will be some very useful information about his popover.<br>
- Here will be some very useful information about his popover."
+              Here will be some very useful information about his popover."
               type="button"
             >
               On right
             </button>
             <button
-              class="btn btn-default btn-sm"
+              class="btn btn-default btn-sm mr-1"
               container="body"
               placement="bottom"
+              popoverTitle="Popover on bottom"
               popover="Here will be some very useful information about his popover."
               type="button"
             >
@@ -1282,6 +1285,7 @@
               class="btn btn-default btn-sm"
               container="body"
               placement="left"
+              popoverTitle="Popover on left"
               popover="Here will be some very useful information about his popover."
               type="button"
             >
@@ -1291,7 +1295,7 @@
           <div class="col-md-6">
             <h4 class="mb-5 mt-3">Tooltips</h4>
             <button
-              class="btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm mr-1"
               data-animation="true"
               data-container="body"
               data-delay="100"
@@ -1302,7 +1306,7 @@
               On left
             </button>
             <button
-              class="btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm mr-1"
               data-animation="true"
               data-container="body"
               placement="top"
@@ -1312,7 +1316,7 @@
               On top
             </button>
             <button
-              class="btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm mr-1"
               data-animation="true"
               data-container="body"
               placement="bottom"
@@ -1351,7 +1355,7 @@
               </p>
               <a
                 class="btn btn-warning mt-4"
-                href="./docs/1.0/components/alerts.html"
+                href="https://demos.creative-tim.com/blk-design-system-angular/#/documentation/alerts"
               >
                 See all components
               </a>
@@ -1401,8 +1405,8 @@
             </h4>
             <div class="btn-wrapper">
               <a
-                class="btn btn-primary btn-round"
-                href="./docs/1.0/foundation/icons.html"
+                class="btn btn-primary btn-round mr-1"
+                href="https://demos.creative-tim.com/blk-design-system-angular/#/documentation/icons"
                 target="_blank"
               >
                 View Demo Icons
@@ -1418,7 +1422,7 @@
           </div>
         </div>
         <div class="blur-hover">
-          <a href="./docs/1.0/foundation/icons.html">
+          <a href="https://demos.creative-tim.com/blk-design-system-angular/#/documentation/icons">
             <div class="icons-container blur-item on-screen mt-5">
               <i class="icon tim-icons icon-coins"> </i>
               <i class="icon icon-sm tim-icons icon-spaceship"> </i>
@@ -1461,7 +1465,7 @@
               System.
             </p>
             <div class="btn-wrapper">
-              <a class="btn btn-info" href="examples/register-page.html">
+              <a class="btn btn-info" [routerLink]="['/register']">
                 Register Page
               </a>
             </div>
@@ -1554,7 +1558,7 @@
             </a>
             <a
               class="btn btn-simple btn-primary btn-round"
-              href="examples/landing-page.html"
+              [routerLink]="['/landing']"
             >
               View Landing Page
             </a>
@@ -1569,7 +1573,7 @@
             </a>
             <a
               class="btn btn-simple btn-primary btn-round"
-              href="examples/profile-page.html"
+              [routerLink]="['/profile']"
             >
               View Profile Page
             </a>
@@ -1587,7 +1591,7 @@
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="text-center col-md-12 col-lg-8">
-            <h2 class="title">Do you love this Bootstrap 4 Design System?</h2>
+            <h2 class="title">Do you love this Bootstrap 4 Angular Design System?</h2>
             <h4 class="description">
               Cause if you do, it can be yours for FREE. Hit the button below to
               navigate to Creative Tim where you can find the design system in
@@ -1598,10 +1602,10 @@
           <div class="text-center col-md-12 col-lg-8">
             <a
               class="btn btn-primary btn-round btn-lg"
-              href="https://www.creative-tim.com/product/blk-design-system"
+              href="https://www.creative-tim.com/product/blk-design-system-angular"
               role="button"
             >
-              Download HTML
+              Download Angular
             </a>
           </div>
         </div>
@@ -1625,11 +1629,11 @@
             </h4>
           </div>
           <div class="col-lg-6 text-lg-center btn-wrapper">
-            <a class="btn btn-icon btn-twitter btn-round btn-lg" id="twitter">
+            <a class="btn btn-icon btn-twitter btn-round btn-lg mr-1" id="twitter">
               <i class="fab fa-twitter"> </i>
             </a>
             <a
-              class="btn btn-icon btn-facebook btn-round btn-lg"
+              class="btn btn-icon btn-facebook btn-round btn-lg mr-1"
               id="facebook"
             >
               <i class="fab fa-facebook-square"> </i>
@@ -1832,20 +1836,20 @@
         <div class="col-md-3">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html"> Home </a>
+              <a class="nav-link" [routerLink]="['/home']"> Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./examples/landing-page.html">
+              <a class="nav-link" [routerLink]="['/landing']">
                 Landing
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./examples/register-page.html">
+              <a class="nav-link" [routerLink]="['/register']">
                 Register
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./examples/profile-page.html">
+              <a class="nav-link" [routerLink]="['/profile']">
                 Profile
               </a>
             </li>
@@ -1879,14 +1883,14 @@
           <h3 class="title">Follow us:</h3>
           <div class="btn-wrapper profile">
             <a
-              class="btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
               href="https://twitter.com/creativetim"
               target="_blank"
             >
               <i class="fab fa-twitter"> </i>
             </a>
             <a
-              class="btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
               href="https://www.facebook.com/creativetim"
               target="_blank"
             >
