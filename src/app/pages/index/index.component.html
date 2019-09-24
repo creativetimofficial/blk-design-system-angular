@@ -1663,6 +1663,7 @@
               class="close"
               data-dismiss="modal"
               type="button"
+              (click)="myModal.hide()"
             >
               <i class="tim-icons icon-simple-remove"> </i>
             </button>
@@ -1681,7 +1682,7 @@
           </div>
           <div class="modal-footer">
             <button class="btn btn-default" type="button">Nice Button</button>
-            <button class="btn btn-danger" data-dismiss="modal" type="button">
+            <button class="btn btn-danger" data-dismiss="modal" type="button" (click)="myModal.hide()">
               Close
             </button>
           </div>
@@ -1705,6 +1706,7 @@
               aria-hidden="true"
               class="close"
               data-dismiss="modal"
+              (click)="myModal1.hide()"
               type="button"
             >
               <i class="tim-icons icon-simple-remove text-white"> </i>
@@ -1724,6 +1726,7 @@
               class="btn btn-link btn-neutral"
               data-dismiss="modal"
               type="button"
+              (click)="myModal1.hide()"
             >
               Close
             </button>
@@ -1748,6 +1751,7 @@
               aria-hidden="true"
               class="close"
               data-dismiss="modal"
+              (click)="myModal2.hide()"
               type="button"
             >
               <i class="tim-icons icon-simple-remove text-white"> </i>
@@ -1758,7 +1762,7 @@
           </div>
           <div class="modal-body">
             <div class="btn-wrapper text-center">
-              <a class="btn btn-neutral btn-icon" href="javascript:void(0)">
+              <a class="btn btn-neutral btn-icon mr-1" href="javascript:void(0)">
                 <img src="assets/img/github.svg" />
               </a>
               <a class="btn btn-neutral btn-icon" href="javascript:void(0)">
@@ -1770,7 +1774,7 @@
             </div>
             <form role="form">
               <div class="form-group mb-3">
-                <div class="input-group input-group-alternative">
+                <div class="input-group input-group-alternative" [ngClass]="{'input-group-focus':focus1===true}">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <i class="tim-icons icon-email-85"> </i>
@@ -1780,11 +1784,12 @@
                     class="form-control"
                     placeholder="Email"
                     type="email"
+                    (focus)="focus1=true" (blur)="focus1=false"
                   />
                 </div>
               </div>
               <div class="form-group">
-                <div class="input-group input-group-alternative">
+                <div class="input-group input-group-alternative" [ngClass]="{'input-group-focus':focus2===true}">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <i class="tim-icons icon-key-25"> </i>
@@ -1794,6 +1799,7 @@
                     class="form-control"
                     placeholder="Password"
                     type="password"
+                    (focus)="focus2=true" (blur)="focus2=false"
                   />
                 </div>
               </div>
