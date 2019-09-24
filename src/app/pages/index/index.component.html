@@ -11,7 +11,7 @@
         target="_blank"
         tooltip="Designed and Coded by Creative Tim"
       >
-        <span> BLKâ¢ </span> Design System
+        <span> BLK• </span> Design System Angular
       </a>
       <button
         aria-controls="navigation-index"
@@ -35,7 +35,7 @@
     >
       <div class=" navbar-collapse-header">
         <div class=" row">
-          <div class=" col-6 collapse-brand"><a> BLKâ¢ </a></div>
+          <div class=" col-6 collapse-brand"><a> BLK• </a></div>
           <div class=" col-6 collapse-close text-right">
             <button
               aria-controls="navigation-index"
@@ -100,17 +100,17 @@
           <div class=" dropdown-menu dropdown-with-icons" *dropdownMenu>
             <a
               class=" dropdown-item"
-              href="https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html"
+              href="https://demos.creative-tim.com/blk-design-system-angular/documentation/overview"
             >
               <i class=" tim-icons icon-paper"> </i> Documentation
             </a>
-            <a class=" dropdown-item" href="examples/register-page.html">
+            <a class=" dropdown-item" [routerLink]="['/register']">
               <i class=" tim-icons icon-bullet-list-67"> </i> Register Page
             </a>
-            <a class=" dropdown-item" href="examples/landing-page.html">
+            <a class=" dropdown-item" [routerLink]="['/landing']">
               <i class=" tim-icons icon-image-02"> </i> Landing Page
             </a>
-            <a class=" dropdown-item" href="examples/profile-page.html">
+            <a class=" dropdown-item"[routerLink]="['/profile']">
               <i class=" tim-icons icon-single-02"> </i> Profile Page
             </a>
           </div>
@@ -139,7 +139,7 @@
     <div class=" squares square7"></div>
     <div class=" container">
       <div class=" content-center brand">
-        <h1 class=" h1-seo">BLKâ¢</h1>
+        <h1 class=" h1-seo">BLK•</h1>
         <h3>
           A beautiful Design System for Bootstrap 4. It's Free and Open Source.
         </h3>
@@ -1039,11 +1039,11 @@
             <h3 class=" mb-5">Pagination</h3>
             <pagination
               class=" pagination-primary"
-              [(ngModel)]="2"
+              [(ngModel)]="test"
               [totalItems]="30"
             >
             </pagination>
-            <pagination [(ngModel)]="2" [totalItems]="30"> </pagination> <br />
+            <pagination [(ngModel)]="test" [totalItems]="30"> </pagination> <br />
 
             <h3 class=" mb-5">Labels</h3>
             <span class=" badge badge-default"> Default </span>
@@ -1155,22 +1155,22 @@
           <div class=" row">
             <div class=" col-md-12">
               <div class=" typography-line">
-                <h1><span> Header 1 </span> The Life of BLKâ¢ Design System</h1>
+                <h1><span> Header 1 </span> The Life of BLK• Design System</h1>
               </div>
               <div class=" typography-line">
-                <h2><span> Header 2 </span> The Life of BLKâ¢ Design System</h2>
+                <h2><span> Header 2 </span> The Life of BLK• Design System</h2>
               </div>
               <div class=" typography-line">
-                <h3><span> Header 3 </span> The Life of BLKâ¢ Design System</h3>
+                <h3><span> Header 3 </span> The Life of BLK• Design System</h3>
               </div>
               <div class=" typography-line">
-                <h4><span> Header 4 </span> The Life of BLKâ¢ Design System</h4>
+                <h4><span> Header 4 </span> The Life of BLK• Design System</h4>
               </div>
               <div class=" typography-line">
-                <h5><span> Header 5 </span> The Life of BLKâ¢ Design System</h5>
+                <h5><span> Header 5 </span> The Life of BLK• Design System</h5>
               </div>
               <div class=" typography-line">
-                <h6><span> Header 6 </span> The Life of BLKâ¢ Design System</h6>
+                <h6><span> Header 6 </span> The Life of BLK• Design System</h6>
               </div>
               <div class=" typography-line">
                 <p>
@@ -1352,7 +1352,7 @@
                   class=" form-control"
                   data-datepicker-color="primary"
                   [bsConfig]="{ isAnimated: true }"
-                  [bsValue]="new Date(10/05/2016)"
+                  [bsValue]="test1"
                   id="datepicker"
                   type="text"
                 />
@@ -1506,9 +1506,9 @@
           <div class=" col-lg-8 col-md-12">
             <h2 class=" title">Nucleo Icons</h2>
             <h4 class=" description">
-              BLKâ¢ Design System PRO comes with 100 custom icons made by our
+              BLK• Design System PRO comes with 100 custom icons made by our
               friends from NucleoApp. The official package contains over 2.100
-              thin icons which are looking great in combination with BLKâ¢
+              thin icons which are looking great in combination with BLK•
               Design System PRO Make sure you check all of them and use those
               that you like the most.
             </h4>
@@ -1935,7 +1935,7 @@
   <footer class=" footer">
     <div class=" container">
       <div class=" row">
-        <div class=" col-md-3"><h1 class=" title">BLKâ¢</h1></div>
+        <div class=" col-md-3"><h1 class=" title">BLK•</h1></div>
         <div class=" col-md-3">
           <ul class=" nav">
             <li class=" nav-item">
