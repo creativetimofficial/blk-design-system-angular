@@ -6,7 +6,8 @@ import noUiSlider from "nouislider";
   templateUrl: 'index.component.html',
 })
 export class IndexComponent implements OnInit, OnDestroy{
-
+  isCollapsed = true;
+  focus;
   constructor(){};
 
   ngOnInit(){

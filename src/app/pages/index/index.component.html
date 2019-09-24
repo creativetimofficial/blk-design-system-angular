@@ -30,7 +30,6 @@
     </div>
     <div
       class="navbar-collapse justify-content-end"
-      [isAnimated]="true"
       [collapse]="isCollapsed"
       id="navigation"
     >
@@ -821,42 +820,11 @@
             </div>
             <div class="card">
               <div class="card-header">
-                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      data-toggle="tab"
-                      href="#link1"
-                      role="tablist"
-                    >
+                <tabset class="nav-tabs-primary">
+                  <tab>
+                    <ng-template tabHeading>
                       <i class="tim-icons icon-spaceship"> </i> Profile
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#link2"
-                      role="tablist"
-                    >
-                      <i class="tim-icons icon-settings-gear-63"> </i> Settings
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#link3"
-                      role="tablist"
-                    >
-                      <i class="tim-icons icon-bag-16"> </i> Options
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
+                    </ng-template>
                     <p>
                       Collaboratively administrate empowered markets via
                       plug-and-play networks. Dynamically procrastinate B2C
@@ -867,8 +835,11 @@
                       Dramatically visualize customer directed convergence
                       without revolutionary ROI.
                     </p>
-                  </div>
-                  <div class="tab-pane" id="link2">
+                  </tab>
+                  <tab>
+                    <ng-template tabHeading>
+                      <i class="tim-icons icon-settings-gear-63"> </i> Settings
+                    </ng-template>
                     <p>
                       Completely synergize resource taxing relationships via
                       premier niche markets. Professionally cultivate one-to-one
@@ -879,8 +850,11 @@
                       Dynamically innovate resource-leveling customer service
                       for state of the art customer service.
                     </p>
-                  </div>
-                  <div class="tab-pane" id="link3">
+                  </tab>
+                  <tab>
+                    <ng-template tabHeading>
+                      <i class="tim-icons icon-bag-16"> </i> Options
+                    </ng-template>
                     <p>
                       Efficiently unleash cross-media information without
                       cross-media value. Quickly maximize timely deliverables
@@ -891,10 +865,12 @@
                       Dramatically maintain clicks-and-mortar solutions without
                       functional solutions.
                     </p>
-                  </div>
-                </div>
+                  </tab>
+                </tabset>
               </div>
+
             </div>
+
           </div>
           <div class="col-md-10 ml-auto col-xl-6 mr-auto">
             <div class="mb-3">
@@ -904,42 +880,8 @@
             </div>
             <div class="card">
               <div class="card-header">
-                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      data-toggle="tab"
-                      href="#link4"
-                      role="tablist"
-                    >
-                      Profile
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#link5"
-                      role="tablist"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      data-toggle="tab"
-                      href="#link6"
-                      role="tablist"
-                    >
-                      Options
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link4">
+                <tabset class="nav-tabs-primary">
+                  <tab heading="Profile">
                     <p>
                       These cases are perfectly simple and easy to distinguish.
                       In a free hour, when our power of choice is untrammelled
@@ -951,8 +893,8 @@
                       duty or the obligations of business it will frequently
                       occur that pleasures
                     </p>
-                  </div>
-                  <div class="tab-pane" id="link5">
+                  </tab>
+                  <tab heading="Settings">
                     <p>
                       I will be the leader of a company that ends up being worth
                       billions of dollars, because I got the answers. I
@@ -963,8 +905,8 @@
                       possibilities, to show people, this is the level that
                       things could be at.
                     </p>
-                  </div>
-                  <div class="tab-pane" id="link6">
+                  </tab>
+                  <tab heading="Options">
                     <p>
                       I think thatâs a responsibility that I have, to push
                       possibilities, to show people, this is the level that
@@ -974,8 +916,8 @@
                       that ends up being worth billions of dollars, because I
                       got the answers. I understand culture. I am the nucleus.
                     </p>
-                  </div>
-                </div>
+                  </tab>
+                </tabset>
               </div>
             </div>
           </div>
