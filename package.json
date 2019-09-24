@@ -23,6 +23,7 @@
     "core-js": "3.2.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ngx-bootstrap": "5.1.2",
+    "nouislider": "11.1.0",
     "rxjs": "6.5.3",
     "tslib": "1.10.0",
     "zone.js": "0.10.2"
