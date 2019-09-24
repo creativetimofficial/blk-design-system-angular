@@ -12,7 +12,6 @@ export class RegisterpageComponent implements OnInit, OnDestroy{
   constructor(){};
   @HostListener('document:mousemove', ['$event'])
   onMouseMove(e) {
-    console.log(e);
     var squares1 = document.getElementById("square1");
     var squares2 = document.getElementById("square2");
     var squares3 = document.getElementById("square3");
