@@ -377,22 +377,17 @@
           </div>
           <div class="col-sm-6 col-lg-3">
             <p class="category">Toggle Buttons</p>
-            <input
-              checked="checked"
-              class="bootstrap-switch"
-              name="checkbox"
-              type="checkbox"
-            />
-
-            <br />
-
-            <input
-              class="bootstrap-switch"
-              data-off-label="OFF"
-              data-on-label="ON"
-              name="checkbox"
-              type="checkbox"
-            />
+            <bSwitch
+                [switch-on-color]="'primary'"
+                [switch-off-color]="'primary'"
+                [switch-off-text]="' '"
+                [switch-on-text]="' '">
+            </bSwitch>
+            <br>
+            <bSwitch
+                [switch-on-color]="'primary'"
+                [switch-off-color]="'primary'">
+            </bSwitch>
           </div>
           <div class="col-sm-6 col-lg-3">
             <p class="category">Sliders</p>
