@@ -935,19 +935,15 @@
             <h3 class="mb-4">Progress Bars</h3>
             <div class="progress-container">
               <span class="progress-badge"> Default </span>
-              <div class="progress">
-                <progressbar [value]="60">
-                  <span class="progress-value"> 25% </span>
-                </progressbar>
-              </div>
+              <progressbar [value]="25">
+                <span class="progress-value"> 25% </span>
+              </progressbar>
             </div>
             <div class="progress-container progress-primary">
               <span class="progress-badge"> Primary </span>
-              <div class="progress">
-                <progressbar class="progress-bar-warning" [value]="60">
-                  <span class="progress-value"> 60% </span>
-                </progressbar>
-              </div>
+              <progressbar class="progress-bar-primary" [value]="60">
+                <span class="progress-value"> 60% </span>
+              </progressbar>
             </div>
             <br />
 
@@ -982,7 +978,8 @@
               [totalItems]="30"
             >
             </pagination>
-            <pagination [(ngModel)]="test" [totalItems]="30"> </pagination> <br />
+            <pagination [boundaryLinks]="true" [totalItems]="77" [ngModel]="pagination"
+            previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"> </pagination> <br />
 
             <h3 class="mb-5">Labels</h3>
             <span class="badge badge-default"> Default </span>

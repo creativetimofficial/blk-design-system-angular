@@ -8,6 +8,7 @@ import noUiSlider from "nouislider";
 export class IndexComponent implements OnInit, OnDestroy{
   isCollapsed = true;
   focus;
+  pagination = 3;
   constructor(){};
 
   ngOnInit(){
