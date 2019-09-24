@@ -7,12 +7,11 @@
     <div class="navbar-translate">
       <a
         class="navbar-brand"
-        href="https://demos.creative-tim.com/blk-design-system/index.html"
+        [routerLink]="['/home']"
         placement="bottom"
-        target="_blank"
         tooltip="Designed and Coded by Creative Tim"
       >
-        <span> BLKâ¢ </span> Design System
+        <span> BLK• </span> Design System
       </a>
       <button
         aria-controls="navigation-index"
@@ -36,7 +35,7 @@
     >
       <div class="navbar-collapse-header">
         <div class="row">
-          <div class="col-6 collapse-brand"><a> BLKâ¢ </a></div>
+          <div class="col-6 collapse-brand"><a> BLK• </a></div>
           <div class="col-6 collapse-close text-right">
             <button
               aria-controls="navigation-index"
@@ -90,12 +89,12 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../index.html"> Back to Kit </a>
+          <a class="nav-link" [routerLink]="['/home']"> Back to Kit </a>
         </li>
         <li class="nav-item">
           <a
             class="nav-link"
-            href="https://github.com/creativetimofficial/blk-design-system/issues"
+            href="https://github.com/creativetimofficial/blk-design-system-angular/issues"
           >
             Have an issue?
           </a>
@@ -447,24 +446,24 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-3"><h1 class="title">BLKâ¢</h1></div>
+        <div class="col-md-3"><h1 class="title">BLK•</h1></div>
         <div class="col-md-3">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html"> Home </a>
+              <a class="nav-link" [routerLink]="['/home']"> Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../examples/landing-page.html">
+              <a class="nav-link" [routerLink]="['/landing']">
                 Landing
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../examples/register-page.html">
+              <a class="nav-link" [routerLink]="['/register']">
                 Register
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../examples/profile-page.html">
+              <a class="nav-link" [routerLink]="['/profile']">
                 Profile
               </a>
             </li>
@@ -498,14 +497,14 @@
           <h3 class="title">Follow us:</h3>
           <div class="btn-wrapper profile">
             <a
-              class="btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
               href="https://twitter.com/creativetim"
               target="_blank"
             >
               <i class="fab fa-twitter"> </i>
             </a>
             <a
-              class="btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
               href="https://www.facebook.com/creativetim"
               target="_blank"
             >

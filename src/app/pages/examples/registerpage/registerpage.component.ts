@@ -5,7 +5,10 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   templateUrl: 'registerpage.component.html',
 })
 export class RegisterpageComponent implements OnInit, OnDestroy{
-
+  isCollapsed = true;
+  focus;
+  focus1;
+  focus2;
   constructor(){};
 
   ngOnInit(){
