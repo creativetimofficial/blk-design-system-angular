@@ -6,7 +6,7 @@ import Chart from "chart.js";
   templateUrl: 'landingpage.component.html',
 })
 export class LandingpageComponent implements OnInit, OnDestroy{
-
+  isCollapsed = true;
   constructor(){};
 
   ngOnInit(){

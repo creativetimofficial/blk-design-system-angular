@@ -5,7 +5,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   templateUrl: 'profilepage.component.html',
 })
 export class ProfilepageComponent implements OnInit, OnDestroy{
-
+  isCollapsed = true;
   constructor(){};
 
   ngOnInit(){
