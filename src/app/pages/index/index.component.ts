@@ -10,6 +10,7 @@ export class IndexComponent implements OnInit, OnDestroy{
   focus;
   focus1;
   focus2;
+  date = new Date;
   pagination = 3;
   constructor(){};
 
