@@ -1,12 +1,12 @@
 <nav
-  class=" navbar navbar-expand-lg fixed-top navbar-transparent"
+  class="navbar navbar-expand-lg fixed-top navbar-transparent"
   color-on-scroll="100"
   id="navbar-top"
 >
-  <div class=" container">
-    <div class=" navbar-translate">
+  <div class="container">
+    <div class="navbar-translate">
       <a
-        class=" navbar-brand"
+        class="navbar-brand"
         href="https://demos.creative-tim.com/blk-design-system/index.html"
         placement="bottom"
         target="_blank"
@@ -17,337 +17,338 @@
       <button
         aria-controls="navigation-index"
         aria-label="Toggle navigation"
-        class=" navbar-toggler navbar-toggler"
+        class="navbar-toggler navbar-toggler"
         [attr.aria-expanded]="!isCollapsed"
         (click)="isCollapsed = !isCollapsed"
         id="navigation"
         type="button"
       >
-        <span class=" navbar-toggler-bar bar1"> </span>
-        <span class=" navbar-toggler-bar bar2"> </span>
-        <span class=" navbar-toggler-bar bar3"> </span>
+        <span class="navbar-toggler-bar bar1"> </span>
+        <span class="navbar-toggler-bar bar2"> </span>
+        <span class="navbar-toggler-bar bar3"> </span>
       </button>
     </div>
     <div
-      class=" navbar-collapse justify-content-end"
+      class="navbar-collapse justify-content-end"
       [isAnimated]="true"
       [collapse]="isCollapsed"
       id="navigation"
     >
-      <div class=" navbar-collapse-header">
-        <div class=" row">
-          <div class=" col-6 collapse-brand"><a> BLK• </a></div>
-          <div class=" col-6 collapse-close text-right">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand"><a> BLK• </a></div>
+          <div class="col-6 collapse-close text-right">
             <button
               aria-controls="navigation-index"
               aria-label="Toggle navigation"
-              class=" navbar-toggler"
+              class="navbar-toggler"
               [attr.aria-expanded]="!isCollapsed"
               (click)="isCollapsed = !isCollapsed"
               id="navigation"
               type="button"
             >
-              <i class=" tim-icons icon-simple-remove"> </i>
+              <i class="tim-icons icon-simple-remove"> </i>
             </button>
           </div>
         </div>
       </div>
-      <ul class=" navbar-nav">
-        <li class=" nav-item p-0">
+      <ul class="navbar-nav">
+        <li class="nav-item p-0">
           <a
-            class=" nav-link"
+            class="nav-link"
             href="https://twitter.com/CreativeTim"
             placement="bottom"
             target="_blank"
             tooltip="Follow us on Twitter"
           >
-            <i class=" fab fa-twitter"> </i>
-            <p class=" d-lg-none d-xl-none">Twitter</p>
+            <i class="fab fa-twitter"> </i>
+            <p class="d-lg-none d-xl-none">Twitter</p>
           </a>
         </li>
-        <li class=" nav-item p-0">
+        <li class="nav-item p-0">
           <a
-            class=" nav-link"
+            class="nav-link"
             href="https://www.facebook.com/CreativeTim"
             placement="bottom"
             target="_blank"
             tooltip="Like us on Facebook"
           >
-            <i class=" fab fa-facebook-square"> </i>
-            <p class=" d-lg-none d-xl-none">Facebook</p>
+            <i class="fab fa-facebook-square"> </i>
+            <p class="d-lg-none d-xl-none">Facebook</p>
           </a>
         </li>
-        <li class=" nav-item p-0">
+        <li class="nav-item p-0">
           <a
-            class=" nav-link"
+            class="nav-link"
             href="https://www.instagram.com/CreativeTimOfficial"
             placement="bottom"
             target="_blank"
             tooltip="Follow us on Instagram"
           >
-            <i class=" fab fa-instagram"> </i>
-            <p class=" d-lg-none d-xl-none">Instagram</p>
+            <i class="fab fa-instagram"> </i>
+            <p class="d-lg-none d-xl-none">Instagram</p>
           </a>
         </li>
-        <li class=" dropdown nav-item" dropdown>
+        <li class="dropdown nav-item" dropdown>
           <a
-            class=" dropdown-toggle nav-link dropdown-toggle"
+            class="dropdown-toggle nav-link dropdown-toggle"
             data-toggle="dropdown"
             dropdownToggle
-            href="#"
+            href="javascript:void(0)"
           >
-            <i class=" fa fa-cogs d-lg-none d-xl-none"> </i> Getting started
+            <i class="fa fa-cogs d-lg-none d-xl-none"> </i> Getting started
           </a>
-          <div class=" dropdown-menu dropdown-with-icons" *dropdownMenu>
+          <div class="dropdown-menu dropdown-with-icons" *dropdownMenu>
             <a
-              class=" dropdown-item"
+              class="dropdown-item"
               href="https://demos.creative-tim.com/blk-design-system-angular/documentation/overview"
             >
-              <i class=" tim-icons icon-paper"> </i> Documentation
+              <i class="tim-icons icon-paper"> </i> Documentation
             </a>
-            <a class=" dropdown-item" [routerLink]="['/register']">
-              <i class=" tim-icons icon-bullet-list-67"> </i> Register Page
+            <a class="dropdown-item" [routerLink]="['/register']">
+              <i class="tim-icons icon-bullet-list-67"> </i> Register Page
             </a>
-            <a class=" dropdown-item" [routerLink]="['/landing']">
-              <i class=" tim-icons icon-image-02"> </i> Landing Page
+            <a class="dropdown-item" [routerLink]="['/landing']">
+              <i class="tim-icons icon-image-02"> </i> Landing Page
             </a>
-            <a class=" dropdown-item"[routerLink]="['/profile']">
-              <i class=" tim-icons icon-single-02"> </i> Profile Page
+            <a class="dropdown-item"[routerLink]="['/profile']">
+              <i class="tim-icons icon-single-02"> </i> Profile Page
             </a>
           </div>
         </li>
-        <li class=" nav-item">
+        <li class="nav-item">
           <a
-            class=" nav-link btn btn-default d-none d-lg-block"
+            class="nav-link btn btn-default d-none d-lg-block"
             href="javascript:void(0)"
             (click)="scrollToDownload()"
           >
-            <i class=" tim-icons icon-cloud-download-93"> </i> Download
+            <i class="tim-icons icon-cloud-download-93"> </i> Download
           </a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<div class=" wrapper">
-  <div class=" page-header header-filter">
-    <div class=" squares square1"></div>
-    <div class=" squares square2"></div>
-    <div class=" squares square3"></div>
-    <div class=" squares square4"></div>
-    <div class=" squares square5"></div>
-    <div class=" squares square6"></div>
-    <div class=" squares square7"></div>
-    <div class=" container">
-      <div class=" content-center brand">
-        <h1 class=" h1-seo">BLK•</h1>
+<div class="wrapper">
+  <div class="page-header header-filter">
+    <div class="squares square1"></div>
+    <div class="squares square2"></div>
+    <div class="squares square3"></div>
+    <div class="squares square4"></div>
+    <div class="squares square5"></div>
+    <div class="squares square6"></div>
+    <div class="squares square7"></div>
+    <div class="container">
+      <div class="content-center brand">
+        <h1 class="h1-seo">BLK•</h1>
         <h3>
           A beautiful Design System for Bootstrap 4 and Angular. It's Free and Open Source.
         </h3>
       </div>
     </div>
   </div>
-  <div class=" main">
-    <div class=" section section-basic" id="basic-elements">
-      <img class=" path" src="assets/img/path1.png" />
+  <div class="main">
+    <div class="section section-basic" id="basic-elements">
+      <img class="path" src="assets/img/path1.png" />
 
-      <div class=" container">
-        <h2 class=" title">Basic Elements</h2>
+      <div class="container">
+        <h2 class="title">Basic Elements</h2>
         <h3>Buttons</h3>
-        <p class=" category">Pick your style</p>
-        <div class=" row">
-          <div class=" col-md-10">
-            <button class=" btn btn-primary mr-1" type="button">Default</button>
-            <button class=" btn btn-primary btn-round mr-1" type="button">
+        <p class="category">Pick your style</p>
+        <div class="row">
+          <div class="col-md-10">
+            <button class="btn btn-primary mr-1" type="button">Default</button>
+            <button class="btn btn-primary btn-round mr-1" type="button">
               Round
             </button>
-            <button class=" btn btn-primary btn-round mr-1" type="button">
-              <i class=" tim-icons icon-heart-2"> </i> With Icon
+            <button class="btn btn-primary btn-round mr-1" type="button">
+              <i class="tim-icons icon-heart-2"> </i> With Icon
             </button>
-            <button class=" btn btn-primary btn-icon btn-round mr-1" type="button">
-              <i class=" tim-icons icon-heart-2"> </i>
+            <button class="btn btn-primary btn-icon btn-round mr-1" type="button">
+              <i class="tim-icons icon-heart-2"> </i>
             </button>
-            <button class=" btn btn-primary btn-simple btn-round" type="button">
+            <button class="btn btn-primary btn-simple btn-round" type="button">
               Simple
             </button>
           </div>
         </div>
-        <p class=" category">Pick your size</p>
-        <div class=" row">
-          <div class=" col-md-10">
-            <button class=" btn btn-primary btn-sm mr-1">Small</button>
-            <button class=" btn btn-primary mr-1">Regular</button>
-            <button class=" btn btn-primary btn-lg">Large</button>
+        <p class="category">Pick your size</p>
+        <div class="row">
+          <div class="col-md-10">
+            <button class="btn btn-primary btn-sm mr-1">Small</button>
+            <button class="btn btn-primary mr-1">Regular</button>
+            <button class="btn btn-primary btn-lg">Large</button>
           </div>
         </div>
-        <p class=" category">Pick your color</p>
-        <div class=" row">
-          <div class=" col-md-12">
-            <button class=" btn mr-1">Default</button>
-            <button class=" btn btn-primary mr-1">Primary</button>
-            <button class=" btn btn-info mr-1">Info</button>
-            <button class=" btn btn-success mr-1">Success</button>
-            <button class=" btn btn-warning mr-1">Warning</button>
-            <button class=" btn btn-danger mr-1">Danger</button>
-            <button class=" btn btn-neutral">Neutral</button>
+        <p class="category">Pick your color</p>
+        <div class="row">
+          <div class="col-md-12">
+            <button class="btn mr-1">Default</button>
+            <button class="btn btn-primary mr-1">Primary</button>
+            <button class="btn btn-info mr-1">Info</button>
+            <button class="btn btn-success mr-1">Success</button>
+            <button class="btn btn-warning mr-1">Warning</button>
+            <button class="btn btn-danger mr-1">Danger</button>
+            <button class="btn btn-neutral">Neutral</button>
           </div>
         </div>
         <br />
 
         <h3>Links</h3>
-        <div class=" row">
-          <div class=" col-md-8">
-            <button class=" btn btn-link mr-1">Default</button>
-            <button class=" btn btn-link btn-primary mr-1">Primary</button>
-            <button class=" btn btn-link btn-info mr-1">Info</button>
-            <button class=" btn btn-link btn-success mr-1">Success</button>
-            <button class=" btn btn-link btn-warning mr-1">Warning</button>
-            <button class=" btn btn-link btn-danger">Danger</button>
+        <div class="row">
+          <div class="col-md-8">
+            <button class="btn btn-link mr-1">Default</button>
+            <button class="btn btn-link btn-primary mr-1">Primary</button>
+            <button class="btn btn-link btn-info mr-1">Info</button>
+            <button class="btn btn-link btn-success mr-1">Success</button>
+            <button class="btn btn-link btn-warning mr-1">Warning</button>
+            <button class="btn btn-link btn-danger">Danger</button>
           </div>
         </div>
-        <div class=" space-70"></div>
+        <div class="space-70"></div>
         <div id="inputs">
           <h3>Inputs</h3>
-          <p class=" category">Form Controls</p>
-          <div class=" row">
-            <div class=" col-sm-6 col-lg-3">
-              <div class=" form-group">
+          <p class="category">Form Controls</p>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+              <div class="form-group">
                 <input
-                  class=" form-control"
+                  class="form-control"
                   placeholder="Regular"
                   type="text"
                   value=""
                 />
               </div>
             </div>
-            <div class=" col-sm-6 col-lg-3">
-              <div class=" form-group has-success">
+            <div class="col-sm-6 col-lg-3">
+              <div class="form-group has-success">
                 <input
-                  class=" form-control form-control-success"
+                  class="form-control form-control-success"
                   type="text"
                   value="Success"
                 />
               </div>
             </div>
-            <div class=" col-sm-6 col-lg-3">
-              <div class=" form-group has-danger">
+            <div class="col-sm-6 col-lg-3">
+              <div class="form-group has-danger">
                 <input
-                  class=" form-control form-control-danger"
+                  class="form-control form-control-danger"
                   type="email"
                   value="Error Input"
                 />
               </div>
             </div>
-            <div class=" col-sm-6 col-lg-3">
-              <div class=" input-group">
-                <div class=" input-group-prepend">
-                  <span class=" input-group-text">
-                    <i class=" fa fa-user"> </i>
+            <div class="col-sm-6 col-lg-3">
+              <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fa fa-user"> </i>
                   </span>
                 </div>
                 <input
-                  class=" form-control"
+                  class="form-control"
                   placeholder="Left Font Awesome Icon"
                   type="text"
+                  (focus)="focus=true" (blur)="focus=false"
                 />
               </div>
             </div>
-            <div class=" col-sm-6 col-lg-3">
-              <div class=" input-group">
+            <div class="col-sm-6 col-lg-3">
+              <div class="input-group">
                 <input
-                  class=" form-control"
+                  class="form-control"
                   placeholder="Right Nucleo Icon"
                   type="text"
                 />
 
-                <div class=" input-group-append">
-                  <span class=" input-group-text">
-                    <i class=" tim-icons icon-lock-circle"> </i>
+                <div class="input-group-append">
+                  <span class="input-group-text">
+                    <i class="tim-icons icon-lock-circle"> </i>
                   </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class=" space-70"></div>
-        <div class=" row" id="checkRadios">
-          <div class=" col-sm-6 col-lg-3">
-            <p class=" category">Checkboxes</p>
-            <div class=" form-check">
-              <label class=" form-check-label">
-                <input class=" form-check-input" type="checkbox" />
+        <div class="space-70"></div>
+        <div class="row" id="checkRadios">
+          <div class="col-sm-6 col-lg-3">
+            <p class="category">Checkboxes</p>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" />
 
-                <span class=" form-check-sign"> </span> Unchecked
+                <span class="form-check-sign"> </span> Unchecked
               </label>
             </div>
-            <div class=" form-check">
-              <label class=" form-check-label">
+            <div class="form-check">
+              <label class="form-check-label">
                 <input
                   checked="checked"
-                  class=" form-check-input"
+                  class="form-check-input"
                   type="checkbox"
                 />
 
-                <span class=" form-check-sign"> </span> Checked
+                <span class="form-check-sign"> </span> Checked
               </label>
             </div>
-            <div class=" form-check disabled">
-              <label class=" form-check-label">
+            <div class="form-check disabled">
+              <label class="form-check-label">
                 <input
-                  class=" form-check-input"
+                  class="form-check-input"
                   disabled="disabled"
                   type="checkbox"
                 />
 
-                <span class=" form-check-sign"> </span> Disabled Unchecked
+                <span class="form-check-sign"> </span> Disabled Unchecked
               </label>
             </div>
-            <div class=" form-check disabled">
-              <label class=" form-check-label">
+            <div class="form-check disabled">
+              <label class="form-check-label">
                 <input
                   checked="checked"
-                  class=" form-check-input"
+                  class="form-check-input"
                   disabled="disabled"
                   type="checkbox"
                 />
 
-                <span class=" form-check-sign"> </span> Disabled Checked
+                <span class="form-check-sign"> </span> Disabled Checked
               </label>
             </div>
           </div>
-          <div class=" col-sm-6 col-lg-3">
-            <p class=" category">Radios</p>
-            <div class=" form-check form-check-radio">
-              <label class=" form-check-label">
+          <div class="col-sm-6 col-lg-3">
+            <p class="category">Radios</p>
+            <div class="form-check form-check-radio">
+              <label class="form-check-label">
                 <input
-                  class=" form-check-input"
+                  class="form-check-input"
                   id="exampleRadios1"
                   name="exampleRadios"
                   type="radio"
                   value="option1"
                 />
 
-                <span class=" form-check-sign"> </span> Radio is off
+                <span class="form-check-sign"> </span> Radio is off
               </label>
             </div>
-            <div class=" form-check form-check-radio">
-              <label class=" form-check-label">
+            <div class="form-check form-check-radio">
+              <label class="form-check-label">
                 <input
                   checked="checked"
-                  class=" form-check-input"
+                  class="form-check-input"
                   id="exampleRadios1"
                   name="exampleRadios"
                   type="radio"
                   value="option2"
                 />
 
-                <span class=" form-check-sign"> </span> Radio is on
+                <span class="form-check-sign"> </span> Radio is on
               </label>
             </div>
-            <div class=" form-check form-check-radio disabled">
-              <label class=" form-check-label">
+            <div class="form-check form-check-radio disabled">
+              <label class="form-check-label">
                 <input
-                  class=" form-check-input"
+                  class="form-check-input"
                   disabled="disabled"
                   id="exampleRadios2"
                   name="exampleRadios1"
@@ -355,14 +356,14 @@
                   value="option3"
                 />
 
-                <span class=" form-check-sign"> </span> Disabled radio is off
+                <span class="form-check-sign"> </span> Disabled radio is off
               </label>
             </div>
-            <div class=" form-check form-check-radio disabled">
-              <label class=" form-check-label">
+            <div class="form-check form-check-radio disabled">
+              <label class="form-check-label">
                 <input
                   checked="checked"
-                  class=" form-check-input"
+                  class="form-check-input"
                   disabled="disabled"
                   id="exampleRadios2"
                   name="exampleRadios1"
@@ -370,15 +371,15 @@
                   value="option4"
                 />
 
-                <span class=" form-check-sign"> </span> Disabled radio is on
+                <span class="form-check-sign"> </span> Disabled radio is on
               </label>
             </div>
           </div>
-          <div class=" col-sm-6 col-lg-3">
-            <p class=" category">Toggle Buttons</p>
+          <div class="col-sm-6 col-lg-3">
+            <p class="category">Toggle Buttons</p>
             <input
               checked="checked"
-              class=" bootstrap-switch"
+              class="bootstrap-switch"
               name="checkbox"
               type="checkbox"
             />
@@ -386,79 +387,79 @@
             <br />
 
             <input
-              class=" bootstrap-switch"
+              class="bootstrap-switch"
               data-off-label="OFF"
               data-on-label="ON"
               name="checkbox"
               type="checkbox"
             />
           </div>
-          <div class=" col-sm-6 col-lg-3">
-            <p class=" category">Sliders</p>
-            <div class=" slider" id="sliderRegular"></div>
+          <div class="col-sm-6 col-lg-3">
+            <p class="category">Sliders</p>
+            <div class="slider" id="sliderRegular"></div>
             <br />
 
-            <div class=" slider slider-primary" id="sliderDouble"></div>
+            <div class="slider slider-primary" id="sliderDouble"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class=" section section-navbars">
-      <img class=" path" src="assets/img/path3.png" />
+    <div class="section section-navbars">
+      <img class="path" src="assets/img/path3.png" />
 
-      <div class=" container" id="menu-dropdown">
-        <div class=" row">
-          <div class=" col-md-6">
+      <div class="container" id="menu-dropdown">
+        <div class="row">
+          <div class="col-md-6">
             <h4>Menu</h4>
-            <nav class=" navbar navbar-expand-lg bg-primary">
-              <div class=" container">
-                <a class=" navbar-brand" href="#"> Menu </a>
+            <nav class="navbar navbar-expand-lg bg-primary">
+              <div class="container">
+                <a class="navbar-brand" href="javascript:void(0)"> Menu </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
                 <div
-                  class=" navbar-collapse"
+                  class="navbar-collapse"
                   [isAnimated]="true"
                   [collapse]="isCollapsed"
                   id="example-navbar"
                 >
-                  <ul class=" navbar-nav">
-                    <li class=" nav-item active">
-                      <a class=" nav-link" href="#"> <p>Link</p> </a>
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="javascript:void(0)"> <p>Link</p> </a>
                     </li>
-                    <li class=" nav-item">
-                      <a class=" nav-link" href="#"> <p>Link</p> </a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)"> <p>Link</p> </a>
                     </li>
-                    <li class=" nav-item dropdown" dropdown>
+                    <li class="nav-item dropdown" dropdown>
                       <a
                         aria-expanded="false"
                         aria-haspopup="true"
-                        class=" nav-link dropdown-toggle dropdown-toggle"
+                        class="nav-link dropdown-toggle dropdown-toggle"
                         data-toggle="dropdown"
                         dropdownToggle
-                        href="http://example.com"
+                        href="javascript:void(0)"
                         id="navbarDropdownMenuLink"
                       >
                         <p>Dropdown</p>
                       </a>
                       <div
                         aria-labelledby="navbarDropdownMenuLink"
-                        class=" dropdown-menu"
+                        class="dropdown-menu"
                         *dropdownMenu
                       >
-                        <a class=" dropdown-item" href="#"> Action </a>
-                        <a class=" dropdown-item" href="#"> Another action </a>
-                        <a class=" dropdown-item" href="#">
+                        <a class="dropdown-item" href="javascript:void(0)"> Action </a>
+                        <a class="dropdown-item" href="javascript:void(0)"> Another action </a>
+                        <a class="dropdown-item" href="javascript:void(0)">
                           Something else here
                         </a>
                       </div>
@@ -468,71 +469,71 @@
               </div>
             </nav>
           </div>
-          <div class=" col-md-6">
+          <div class="col-md-6">
             <h4>Menu with Icons</h4>
-            <nav class=" navbar navbar-expand-lg bg-info">
-              <div class=" container">
-                <a class=" navbar-brand" href="#"> Icons </a>
+            <nav class="navbar navbar-expand-lg bg-info">
+              <div class="container">
+                <a class="navbar-brand" href="javascript:void(0)"> Icons </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-icons"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
                 <div
-                  class=" navbar-collapse"
+                  class="navbar-collapse"
                   [isAnimated]="true"
                   [collapse]="isCollapsed"
                   id="example-navbar-icons"
                 >
-                  <ul class=" navbar-nav ml-auto">
-                    <li class=" nav-item">
-                      <a class=" nav-link" href="#pablo">
-                        <i aria-hidden="true" class=" tim-icons icon-send"> </i>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">
+                        <i aria-hidden="true" class="tim-icons icon-send"> </i>
                       </a>
                     </li>
-                    <li class=" nav-item">
-                      <a class=" nav-link" href="#pablo">
-                        <i aria-hidden="true" class=" tim-icons icon-single-02">
+                    <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">
+                        <i aria-hidden="true" class="tim-icons icon-single-02">
                         </i>
                       </a>
                     </li>
-                    <li class=" nav-item dropdown" dropdown>
+                    <li class="nav-item dropdown" dropdown>
                       <a
-                        class=" nav-link dropdown-toggle dropdown-toggle"
+                        class="nav-link dropdown-toggle dropdown-toggle"
                         data-toggle="dropdown"
                         dropdownToggle
-                        href="#"
+                        href="javascript:void(0)"
                         id="navbarDropdownMenuLink"
                       >
                         <i
                           aria-hidden="true"
-                          class=" tim-icons icon-settings-gear-63"
+                          class="tim-icons icon-settings-gear-63"
                         >
                         </i>
                       </a>
                       <div
                         aria-labelledby="navbarDropdownMenuLink"
-                        class=" dropdown-menu dropdown-menu-right"
+                        class="dropdown-menu dropdown-menu-right"
                         *dropdownMenu
                       >
-                        <a class=" dropdown-header"> Dropdown header </a>
-                        <a class=" dropdown-item" href="#"> Action </a>
-                        <a class=" dropdown-item" href="#"> Another action </a>
-                        <a class=" dropdown-item" href="#">
+                        <a class="dropdown-header"> Dropdown header </a>
+                        <a class="dropdown-item" href="javascript:void(0)"> Action </a>
+                        <a class="dropdown-item" href="javascript:void(0)"> Another action </a>
+                        <a class="dropdown-item" href="javascript:void(0)">
                           Something else here
                         </a>
-                        <div class=" divider"></div>
-                        <a class=" dropdown-item" href="#"> Separated link </a>
-                        <div class=" divider"></div>
-                        <a class=" dropdown-item" href="#">
+                        <div class="divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0)"> Separated link </a>
+                        <div class="divider"></div>
+                        <a class="dropdown-item" href="javascript:void(0)">
                           One more separated link
                         </a>
                       </div>
@@ -543,267 +544,267 @@
             </nav>
           </div>
         </div>
-        <h3 class=" title mb-3">Navigation</h3>
+        <h3 class="title mb-3">Navigation</h3>
       </div>
       <div id="navbar">
-        <div class=" navigation-example">
-          <nav class=" navbar navbar-expand-lg bg-primary">
-            <div class=" container">
-              <div class=" navbar-translate">
-                <a class=" navbar-brand" href="#pablo"> Primary color </a>
+        <div class="navigation-example">
+          <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container">
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:void(0)"> Primary color </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-primary"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
               </div>
               <div
-                class=" navbar-collapse"
+                class="navbar-collapse"
                 [isAnimated]="true"
                 [collapse]="isCollapsed"
                 id="example-navbar-primary"
               >
-                <ul class=" navbar-nav ml-auto">
-                  <li class=" nav-item active">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" tim-icons icon-world"> </i> Discover
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="tim-icons icon-world"> </i> Discover
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" tim-icons icon-single-02"> </i> Profile
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="tim-icons icon-single-02"> </i> Profile
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" tim-icons icon-settings-gear-63"> </i> Settings
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="tim-icons icon-settings-gear-63"> </i> Settings
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <nav class=" navbar navbar-expand-lg bg-info">
-            <div class=" container">
-              <div class=" navbar-translate">
-                <a class=" navbar-brand" href="#pablo"> Info Color </a>
+          <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container">
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:void(0)"> Info Color </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-info"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
               </div>
               <div
-                class=" navbar-collapse"
+                class="navbar-collapse"
                 [isAnimated]="true"
                 [collapse]="isCollapsed"
                 id="example-navbar-info"
               >
-                <ul class=" navbar-nav ml-auto">
-                  <li class=" nav-item active">
-                    <a class=" nav-link" href="#pablo"> Discover </a>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="javascript:void(0)"> Discover </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo"> Profile </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)"> Profile </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo"> Settings </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)"> Settings </a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <nav class=" navbar navbar-expand-lg bg-success">
-            <div class=" container">
-              <div class=" navbar-translate">
-                <a class=" navbar-brand" href="#"> Success Color </a>
+          <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container">
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:void(0)"> Success Color </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-success"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
               </div>
               <div
-                class=" navbar-collapse"
+                class="navbar-collapse"
                 [isAnimated]="true"
                 [collapse]="isCollapsed"
                 id="example-navbar-success"
               >
-                <ul class=" navbar-nav ml-auto">
-                  <li class=" nav-item active">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" tim-icons icon-world"> </i>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="tim-icons icon-world"> </i>
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" tim-icons icon-single-02"> </i>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="tim-icons icon-single-02"> </i>
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" tim-icons icon-settings-gear-63"> </i>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="tim-icons icon-settings-gear-63"> </i>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <nav class=" navbar navbar-expand-lg bg-warning">
-            <div class=" container">
-              <div class=" navbar-translate">
-                <a class=" navbar-brand" href="#pablo"> Warning Color </a>
+          <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container">
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:void(0)"> Warning Color </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-warning"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
               </div>
               <div
-                class=" navbar-collapse"
+                class="navbar-collapse"
                 [isAnimated]="true"
                 [collapse]="isCollapsed"
                 id="example-navbar-warning"
               >
-                <ul class=" navbar-nav ml-auto">
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-facebook-square"> </i>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-facebook-square"> </i>
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-twitter"> </i>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-twitter"> </i>
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-google-plus"> </i>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-google-plus"> </i>
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-instagram"> </i>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-instagram"> </i>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <nav class=" navbar navbar-expand-lg bg-danger">
-            <div class=" container">
-              <div class=" navbar-translate">
-                <a class=" navbar-brand" href="#pablo"> Danger Color </a>
+          <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container">
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:void(0)"> Danger Color </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-danger"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
               </div>
               <div
-                class=" navbar-collapse"
+                class="navbar-collapse"
                 [isAnimated]="true"
                 [collapse]="isCollapsed"
                 id="example-navbar-danger"
               >
-                <ul class=" navbar-nav ml-auto">
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-facebook-square"> </i> Share
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-facebook-square"> </i> Share
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-twitter"> </i> Tweet
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-twitter"> </i> Tweet
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-pinterest"> </i> Pin
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-pinterest"> </i> Pin
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <nav class=" navbar navbar-expand-lg navbar-transparent">
-            <div class=" container">
-              <div class=" navbar-translate">
-                <a class=" navbar-brand" href="#pablo"> Transparent </a>
+          <nav class="navbar navbar-expand-lg navbar-transparent">
+            <div class="container">
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:void(0)"> Transparent </a>
                 <button
                   aria-controls="navbarSupportedContent"
                   aria-label="Toggle navigation"
-                  class=" navbar-toggler"
+                  class="navbar-toggler"
                   [attr.aria-expanded]="!isCollapsed"
                   (click)="isCollapsed = !isCollapsed"
                   id="example-navbar-transparent"
                   type="button"
                 >
-                  <span class=" navbar-toggler-bar bar1"> </span>
-                  <span class=" navbar-toggler-bar bar2"> </span>
-                  <span class=" navbar-toggler-bar bar3"> </span>
+                  <span class="navbar-toggler-bar bar1"> </span>
+                  <span class="navbar-toggler-bar bar2"> </span>
+                  <span class="navbar-toggler-bar bar3"> </span>
                 </button>
               </div>
               <div
-                class=" navbar-collapse"
+                class="navbar-collapse"
                 [isAnimated]="true"
                 [collapse]="isCollapsed"
                 id="example-navbar-transparent"
               >
-                <ul class=" navbar-nav ml-auto">
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-facebook-square"> </i> Facebook
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-facebook-square"> </i> Facebook
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-twitter"> </i> Twitter
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-twitter"> </i> Twitter
                     </a>
                   </li>
-                  <li class=" nav-item">
-                    <a class=" nav-link" href="#pablo">
-                      <i class=" fab fa-instagram"> </i> Instagram
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">
+                      <i class="fab fa-instagram"> </i> Instagram
                     </a>
                   </li>
                 </ul>
@@ -813,54 +814,54 @@
         </div>
       </div>
     </div>
-    <div class=" section section-tabs">
-      <div class=" container">
-        <div class=" title"><h3 class=" mb-3">Navigation Tabs</h3></div>
-        <div class=" row">
-          <div class=" col-md-10 ml-auto col-xl-6 mr-auto">
-            <div class=" mb-3">
-              <small class=" text-uppercase font-weight-bold">
+    <div class="section section-tabs">
+      <div class="container">
+        <div class="title"><h3 class="mb-3">Navigation Tabs</h3></div>
+        <div class="row">
+          <div class="col-md-10 ml-auto col-xl-6 mr-auto">
+            <div class="mb-3">
+              <small class="text-uppercase font-weight-bold">
                 With icons
               </small>
             </div>
-            <div class=" card">
-              <div class=" card-header">
-                <ul class=" nav nav-tabs nav-tabs-primary" role="tablist">
-                  <li class=" nav-item">
+            <div class="card">
+              <div class="card-header">
+                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+                  <li class="nav-item">
                     <a
-                      class=" nav-link active"
+                      class="nav-link active"
                       data-toggle="tab"
                       href="#link1"
                       role="tablist"
                     >
-                      <i class=" tim-icons icon-spaceship"> </i> Profile
+                      <i class="tim-icons icon-spaceship"> </i> Profile
                     </a>
                   </li>
-                  <li class=" nav-item">
+                  <li class="nav-item">
                     <a
-                      class=" nav-link"
+                      class="nav-link"
                       data-toggle="tab"
                       href="#link2"
                       role="tablist"
                     >
-                      <i class=" tim-icons icon-settings-gear-63"> </i> Settings
+                      <i class="tim-icons icon-settings-gear-63"> </i> Settings
                     </a>
                   </li>
-                  <li class=" nav-item">
+                  <li class="nav-item">
                     <a
-                      class=" nav-link"
+                      class="nav-link"
                       data-toggle="tab"
                       href="#link3"
                       role="tablist"
                     >
-                      <i class=" tim-icons icon-bag-16"> </i> Options
+                      <i class="tim-icons icon-bag-16"> </i> Options
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class=" card-body">
-                <div class=" tab-content tab-space">
-                  <div class=" tab-pane active" id="link1">
+              <div class="card-body">
+                <div class="tab-content tab-space">
+                  <div class="tab-pane active" id="link1">
                     <p>
                       Collaboratively administrate empowered markets via
                       plug-and-play networks. Dynamically procrastinate B2C
@@ -872,7 +873,7 @@
                       without revolutionary ROI.
                     </p>
                   </div>
-                  <div class=" tab-pane" id="link2">
+                  <div class="tab-pane" id="link2">
                     <p>
                       Completely synergize resource taxing relationships via
                       premier niche markets. Professionally cultivate one-to-one
@@ -884,7 +885,7 @@
                       for state of the art customer service.
                     </p>
                   </div>
-                  <div class=" tab-pane" id="link3">
+                  <div class="tab-pane" id="link3">
                     <p>
                       Efficiently unleash cross-media information without
                       cross-media value. Quickly maximize timely deliverables
@@ -900,18 +901,18 @@
               </div>
             </div>
           </div>
-          <div class=" col-md-10 ml-auto col-xl-6 mr-auto">
-            <div class=" mb-3">
-              <small class=" text-uppercase font-weight-bold">
+          <div class="col-md-10 ml-auto col-xl-6 mr-auto">
+            <div class="mb-3">
+              <small class="text-uppercase font-weight-bold">
                 With text
               </small>
             </div>
-            <div class=" card">
-              <div class=" card-header">
-                <ul class=" nav nav-tabs nav-tabs-primary" role="tablist">
-                  <li class=" nav-item">
+            <div class="card">
+              <div class="card-header">
+                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+                  <li class="nav-item">
                     <a
-                      class=" nav-link active"
+                      class="nav-link active"
                       data-toggle="tab"
                       href="#link4"
                       role="tablist"
@@ -919,9 +920,9 @@
                       Profile
                     </a>
                   </li>
-                  <li class=" nav-item">
+                  <li class="nav-item">
                     <a
-                      class=" nav-link"
+                      class="nav-link"
                       data-toggle="tab"
                       href="#link5"
                       role="tablist"
@@ -929,9 +930,9 @@
                       Settings
                     </a>
                   </li>
-                  <li class=" nav-item">
+                  <li class="nav-item">
                     <a
-                      class=" nav-link"
+                      class="nav-link"
                       data-toggle="tab"
                       href="#link6"
                       role="tablist"
@@ -941,9 +942,9 @@
                   </li>
                 </ul>
               </div>
-              <div class=" card-body">
-                <div class=" tab-content tab-space">
-                  <div class=" tab-pane active" id="link4">
+              <div class="card-body">
+                <div class="tab-content tab-space">
+                  <div class="tab-pane active" id="link4">
                     <p>
                       These cases are perfectly simple and easy to distinguish.
                       In a free hour, when our power of choice is untrammelled
@@ -956,7 +957,7 @@
                       occur that pleasures
                     </p>
                   </div>
-                  <div class=" tab-pane" id="link5">
+                  <div class="tab-pane" id="link5">
                     <p>
                       I will be the leader of a company that ends up being worth
                       billions of dollars, because I got the answers. I
@@ -968,7 +969,7 @@
                       things could be at.
                     </p>
                   </div>
-                  <div class=" tab-pane" id="link6">
+                  <div class="tab-pane" id="link6">
                     <p>
                       I think thatâs a responsibility that I have, to push
                       possibilities, to show people, this is the level that
@@ -986,158 +987,158 @@
         </div>
       </div>
     </div>
-    <div class=" section section-pagination">
-      <img class=" path" src="assets/img/path4.png" />
+    <div class="section section-pagination">
+      <img class="path" src="assets/img/path4.png" />
 
-      <img class=" path path1" src="assets/img/path5.png" />
+      <img class="path path1" src="assets/img/path5.png" />
 
-      <div class=" container">
-        <div class=" row">
-          <div class=" col-md-6">
-            <h3 class=" mb-4">Progress Bars</h3>
-            <div class=" progress-container">
-              <span class=" progress-badge"> Default </span>
-              <div class=" progress">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="mb-4">Progress Bars</h3>
+            <div class="progress-container">
+              <span class="progress-badge"> Default </span>
+              <div class="progress">
                 <progressbar [value]="60">
-                  <span class=" progress-value"> 25% </span>
+                  <span class="progress-value"> 25% </span>
                 </progressbar>
               </div>
             </div>
-            <div class=" progress-container progress-primary">
-              <span class=" progress-badge"> Primary </span>
-              <div class=" progress">
-                <progressbar class=" progress-bar-warning" [value]="60">
-                  <span class=" progress-value"> 60% </span>
+            <div class="progress-container progress-primary">
+              <span class="progress-badge"> Primary </span>
+              <div class="progress">
+                <progressbar class="progress-bar-warning" [value]="60">
+                  <span class="progress-value"> 60% </span>
                 </progressbar>
               </div>
             </div>
             <br />
 
-            <h3 class=" mb-5">Navigation Pills</h3>
-            <ul class=" nav nav-pills nav-pills-primary nav-pills-icons">
-              <li class=" nav-item">
+            <h3 class="mb-5">Navigation Pills</h3>
+            <ul class="nav nav-pills nav-pills-primary nav-pills-icons">
+              <li class="nav-item">
                 <a
-                  class=" nav-link active show"
+                  class="nav-link active show"
                   data-toggle="tab"
                   href="#link7"
                 >
-                  <i class=" tim-icons icon-atom"> </i> Home
+                  <i class="tim-icons icon-atom"> </i> Home
                 </a>
               </li>
-              <li class=" nav-item">
-                <a class=" nav-link" data-toggle="tab" href="#link8">
-                  <i class=" tim-icons icon-chat-33"> </i> Messages
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#link8">
+                  <i class="tim-icons icon-chat-33"> </i> Messages
                 </a>
               </li>
-              <li class=" nav-item">
-                <a class=" nav-link" data-toggle="tab" href="#link9">
-                  <i class=" tim-icons icon-settings-gear-63"> </i> Settings
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#link9">
+                  <i class="tim-icons icon-settings-gear-63"> </i> Settings
                 </a>
               </li>
             </ul>
           </div>
-          <div class=" col-md-6">
-            <h3 class=" mb-5">Pagination</h3>
+          <div class="col-md-6">
+            <h3 class="mb-5">Pagination</h3>
             <pagination
-              class=" pagination-primary"
+              class="pagination-primary"
               [(ngModel)]="test"
               [totalItems]="30"
             >
             </pagination>
             <pagination [(ngModel)]="test" [totalItems]="30"> </pagination> <br />
 
-            <h3 class=" mb-5">Labels</h3>
-            <span class=" badge badge-default"> Default </span>
-            <span class=" badge badge-primary"> Primary </span>
-            <span class=" badge badge-success"> Success </span>
-            <span class=" badge badge-info"> Info </span>
-            <span class=" badge badge-warning"> Warning </span>
-            <span class=" badge badge-danger"> Danger </span>
-            <span class=" badge badge-neutral"> Neutral </span>
+            <h3 class="mb-5">Labels</h3>
+            <span class="badge badge-default"> Default </span>
+            <span class="badge badge-primary"> Primary </span>
+            <span class="badge badge-success"> Success </span>
+            <span class="badge badge-info"> Info </span>
+            <span class="badge badge-warning"> Warning </span>
+            <span class="badge badge-danger"> Danger </span>
+            <span class="badge badge-neutral"> Neutral </span>
           </div>
         </div>
         <br />
       </div>
     </div>
-    <div class=" section section-notifications" id="notifications">
-      <div class=" container">
-        <div class=" space"></div>
+    <div class="section section-notifications" id="notifications">
+      <div class="container">
+        <div class="space"></div>
         <h3>Notifications</h3>
-        <alert class=" alert-with-icon" [type]="primary">
+        <alert class="alert-with-icon" [type]="primary">
           <button
             aria-hidden="true"
             aria-label="Close"
-            class=" close"
+            class="close"
             data-dismiss="alert"
             type="button"
           >
-            <i class=" tim-icons icon-simple-remove"> </i>
+            <i class="tim-icons icon-simple-remove"> </i>
           </button>
-          <span class=" tim-icons icon-coins" data-notify="icon"> </span>
+          <span class="tim-icons icon-coins" data-notify="icon"> </span>
           <span>
             <b> Congrats! - </b> This is a regular notification made with
             ".alert-primary"
           </span>
         </alert>
-        <alert class=" alert-with-icon" [type]="info">
+        <alert class="alert-with-icon" [type]="info">
           <button
             aria-hidden="true"
             aria-label="Close"
-            class=" close"
+            class="close"
             data-dismiss="alert"
             type="button"
           >
-            <i class=" tim-icons icon-simple-remove"> </i>
+            <i class="tim-icons icon-simple-remove"> </i>
           </button>
-          <span class=" tim-icons icon-trophy" data-notify="icon"> </span>
+          <span class="tim-icons icon-trophy" data-notify="icon"> </span>
           <span>
             <b> Heads up! - </b> This is a regular notification made with
             ".alert-info"
           </span>
         </alert>
-        <alert class=" alert-with-icon" [type]="success">
+        <alert class="alert-with-icon" [type]="success">
           <button
             aria-hidden="true"
             aria-label="Close"
-            class=" close"
+            class="close"
             data-dismiss="alert"
             type="button"
           >
-            <i class=" tim-icons icon-simple-remove"> </i>
+            <i class="tim-icons icon-simple-remove"> </i>
           </button>
-          <span class=" tim-icons icon-bell-55" data-notify="icon"> </span>
+          <span class="tim-icons icon-bell-55" data-notify="icon"> </span>
           <span>
             <b> Well done! - </b> This is a regular notification made with
             ".alert-success"
           </span>
         </alert>
-        <alert class=" alert-with-icon" [type]="warning">
+        <alert class="alert-with-icon" [type]="warning">
           <button
             aria-hidden="true"
             aria-label="Close"
-            class=" close"
+            class="close"
             data-dismiss="alert"
             type="button"
           >
-            <i class=" tim-icons icon-simple-remove"> </i>
+            <i class="tim-icons icon-simple-remove"> </i>
           </button>
-          <span class=" tim-icons icon-bulb-63" data-notify="icon"> </span>
+          <span class="tim-icons icon-bulb-63" data-notify="icon"> </span>
           <span>
             <b> Warning! - </b> This is a regular notification made with
             ".alert-warning"
           </span>
         </alert>
-        <alert class=" alert-with-icon" [type]="danger">
+        <alert class="alert-with-icon" [type]="danger">
           <button
             aria-hidden="true"
             aria-label="Close"
-            class=" close"
+            class="close"
             data-dismiss="alert"
             type="button"
           >
-            <i class=" tim-icons icon-simple-remove"> </i>
+            <i class="tim-icons icon-simple-remove"> </i>
           </button>
-          <span class=" tim-icons icon-support-17" data-notify="icon"> </span>
+          <span class="tim-icons icon-support-17" data-notify="icon"> </span>
           <span>
             <b> Oh snap! - </b> This is a regular notification made with
             ".alert-danger"
@@ -1145,35 +1146,35 @@
         </alert>
       </div>
     </div>
-    <div class=" section section-typo">
-      <img class=" path" src="assets/img/path1.png" />
+    <div class="section section-typo">
+      <img class="path" src="assets/img/path1.png" />
 
-      <img class=" path path1" src="assets/img/path3.png" />
+      <img class="path path1" src="assets/img/path3.png" />
 
-      <div class=" container">
-        <h3 class=" title">Typography</h3>
+      <div class="container">
+        <h3 class="title">Typography</h3>
         <div id="typography">
-          <div class=" row">
-            <div class=" col-md-12">
-              <div class=" typography-line">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="typography-line">
                 <h1><span> Header 1 </span> The Life of BLK• Design System</h1>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <h2><span> Header 2 </span> The Life of BLK• Design System</h2>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <h3><span> Header 3 </span> The Life of BLK• Design System</h3>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <h4><span> Header 4 </span> The Life of BLK• Design System</h4>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <h5><span> Header 5 </span> The Life of BLK• Design System</h5>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <h6><span> Header 6 </span> The Life of BLK• Design System</h6>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <p>
                   <span> Paragraph </span> I will be the leader of a company
                   that ends up being worth billions of dollars, because I got
@@ -1182,10 +1183,10 @@
                   show people, this is the level that things could be at.
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Quote </span>
                 <blockquote>
-                  <p class=" blockquote blockquote-primary">
+                  <p class="blockquote blockquote-primary">
                     "I will be the leader of a company that ends up being worth
                     billions of dollars, because I got the answers. I understand
                     culture. I am the nucleus. I think thatâs a responsibility
@@ -1198,49 +1199,49 @@
                   </p>
                 </blockquote>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Muted Text </span>
-                <p class=" text-muted">
+                <p class="text-muted">
                   I will be the leader of a company that ends up being worth
                   billions of dollars, because I got the answers...
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Primary Text </span>
-                <p class=" text-primary">
+                <p class="text-primary">
                   I will be the leader of a company that ends up being worth
                   billions of dollars, because I got the answers...
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Info Text </span>
-                <p class=" text-info">
+                <p class="text-info">
                   I will be the leader of a company that ends up being worth
                   billions of dollars, because I got the answers...
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Success Text </span>
-                <p class=" text-success">
+                <p class="text-success">
                   I will be the leader of a company that ends up being worth
                   billions of dollars, because I got the answers...
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Warning Text </span>
-                <p class=" text-warning">
+                <p class="text-warning">
                   I will be the leader of a company that ends up being worth
                   billions of dollars, because I got the answers...
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <span> Danger Text </span>
-                <p class=" text-danger">
+                <p class="text-danger">
                   I will be the leader of a company that ends up being worth
                   billions of dollars, because I got the answers...
                 </p>
               </div>
-              <div class=" typography-line">
+              <div class="typography-line">
                 <h2>
                   <span> Small Tag </span> Header with small subtitle <br />
 
@@ -1250,50 +1251,50 @@
             </div>
           </div>
         </div>
-        <div class=" space-50"></div>
+        <div class="space-50"></div>
         <div id="images">
-          <h3 class=" mb-5">Images</h3>
-          <div class=" row">
-            <div class=" col-sm-3 col-6">
-              <small class=" d-block text-uppercase font-weight-bold mb-4">
+          <h3 class="mb-5">Images</h3>
+          <div class="row">
+            <div class="col-sm-3 col-6">
+              <small class="d-block text-uppercase font-weight-bold mb-4">
                 Image
               </small>
               <img
                 alt="Rounded image"
-                class=" img-fluid rounded shadow"
+                class="img-fluid rounded shadow"
                 src="assets/img/ryan.jpg"
                 style="width: 150px;"
               />
             </div>
-            <div class=" col-sm-3 col-6">
-              <small class=" d-block text-uppercase font-weight-bold mb-4">
+            <div class="col-sm-3 col-6">
+              <small class="d-block text-uppercase font-weight-bold mb-4">
                 Circle Image
               </small>
               <img
                 alt="Circle image"
-                class=" img-fluid rounded-circle shadow"
+                class="img-fluid rounded-circle shadow"
                 src="assets/img/james.jpg"
                 style="width: 150px;"
               />
             </div>
-            <div class=" col-sm-3 col-6 mt-5 mt-sm-0">
-              <small class=" d-block text-uppercase font-weight-bold mb-4">
+            <div class="col-sm-3 col-6 mt-5 mt-sm-0">
+              <small class="d-block text-uppercase font-weight-bold mb-4">
                 Raised
               </small>
               <img
                 alt="Raised image"
-                class=" img-fluid rounded shadow-lg"
+                class="img-fluid rounded shadow-lg"
                 src="assets/img/lora.jpg"
                 style="width: 150px;"
               />
             </div>
-            <div class=" col-sm-3 col-6 mt-5 mt-sm-0">
-              <small class=" d-block text-uppercase font-weight-bold mb-4">
+            <div class="col-sm-3 col-6 mt-5 mt-sm-0">
+              <small class="d-block text-uppercase font-weight-bold mb-4">
                 Circle Raised
               </small>
               <img
                 alt="Raised circle image"
-                class=" img-fluid rounded-circle shadow-lg"
+                class="img-fluid rounded-circle shadow-lg"
                 src="assets/img/mike.jpg"
                 style="width: 150px;"
               />
@@ -1302,36 +1303,36 @@
         </div>
       </div>
     </div>
-    <div class=" section section-javascript" id="javascriptComponents">
-      <img class=" path" src="assets/img/path5.png" />
+    <div class="section section-javascript" id="javascriptComponents">
+      <img class="path" src="assets/img/path5.png" />
 
-      <img class=" path path1" src="assets/img/path5.png" />
+      <img class="path path1" src="assets/img/path5.png" />
 
-      <div class=" container">
-        <h3 class=" title mb-5">Javascript components</h3>
-        <h4 class=" mb-5">Modal</h4>
-        <div class=" row" id="modals">
-          <div class=" col-md-4">
+      <div class="container">
+        <h3 class="title mb-5">Javascript components</h3>
+        <h4 class="mb-5">Modal</h4>
+        <div class="row" id="modals">
+          <div class="col-md-4">
             <button
-              class=" btn btn-primary"
+              class="btn btn-primary"
               data-target="#myModal"
               (click)="myModal.show()"
             >
               Launch Modal
             </button>
           </div>
-          <div class=" col-md-4">
+          <div class="col-md-4">
             <button
-              class=" btn btn-warning"
+              class="btn btn-warning"
               data-target="#myModal1"
               (click)="myModal1.show()"
             >
               Launch Modal Mini
             </button>
           </div>
-          <div class=" col-md-4">
+          <div class="col-md-4">
             <button
-              class=" btn btn-success"
+              class="btn btn-success"
               data-target="#myModal2"
               (click)="myModal2.show()"
             >
@@ -1343,14 +1344,14 @@
 
         <br />
 
-        <h4 class=" mb-5 mt-3">Datepicker</h4>
-        <div class=" row">
-          <div class=" col-md-4">
-            <div class=" datepicker-container">
-              <div class=" form-group">
+        <h4 class="mb-5 mt-3">Datepicker</h4>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="datepicker-container">
+              <div class="form-group">
                 <input
                   bsDatepicker
-                  class=" form-control"
+                  class="form-control"
                   data-datepicker-color="primary"
                   [bsConfig]="{ isAnimated: true }"
                   [bsValue]="test1"
@@ -1361,11 +1362,11 @@
             </div>
           </div>
         </div>
-        <div class=" row">
-          <div class=" col-md-6">
-            <h4 class=" mb-5 mt-3">Popovers</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="mb-5 mt-3">Popovers</h4>
             <button
-              class=" btn btn-default btn-sm"
+              class="btn btn-default btn-sm"
               container="body"
               placement="top"
               popover="Here will be some very useful information about his popover."
@@ -1374,7 +1375,7 @@
               On top
             </button>
             <button
-              class=" btn btn-default btn-sm"
+              class="btn btn-default btn-sm"
               container="body"
               placement="right"
               popover="Here will be some very useful information about his popover.<br>
@@ -1384,7 +1385,7 @@
               On right
             </button>
             <button
-              class=" btn btn-default btn-sm"
+              class="btn btn-default btn-sm"
               container="body"
               placement="bottom"
               popover="Here will be some very useful information about his popover."
@@ -1393,7 +1394,7 @@
               On bottom
             </button>
             <button
-              class=" btn btn-default btn-sm"
+              class="btn btn-default btn-sm"
               container="body"
               placement="left"
               popover="Here will be some very useful information about his popover."
@@ -1402,10 +1403,10 @@
               On left
             </button>
           </div>
-          <div class=" col-md-6">
-            <h4 class=" mb-5 mt-3">Tooltips</h4>
+          <div class="col-md-6">
+            <h4 class="mb-5 mt-3">Tooltips</h4>
             <button
-              class=" btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm"
               data-animation="true"
               data-container="body"
               data-delay="100"
@@ -1416,7 +1417,7 @@
               On left
             </button>
             <button
-              class=" btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm"
               data-animation="true"
               data-container="body"
               placement="top"
@@ -1426,7 +1427,7 @@
               On top
             </button>
             <button
-              class=" btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm"
               data-animation="true"
               data-container="body"
               placement="bottom"
@@ -1436,7 +1437,7 @@
               On bottom
             </button>
             <button
-              class=" btn btn-default btn-tooltip btn-sm"
+              class="btn btn-default btn-tooltip btn-sm"
               data-animation="true"
               data-container="body"
               placement="right"
@@ -1445,51 +1446,51 @@
             >
               On right
             </button>
-            <div class=" clearfix"></div>
+            <div class="clearfix"></div>
             <br />
 
             <br />
           </div>
         </div>
       </div>
-      <div class=" section">
-        <div class=" container">
-          <div class=" title"><h3>Carousel</h3></div>
-          <div class=" row justify-content-between align-items-center">
-            <div class=" col-lg-5 mb-5 mb-lg-0">
-              <h1 class=" text-white font-weight-light">Bootstrap carousel</h1>
-              <p class=" text-white mt-4">
+      <div class="section">
+        <div class="container">
+          <div class="title"><h3>Carousel</h3></div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <h1 class="text-white font-weight-light">Bootstrap carousel</h1>
+              <p class="text-white mt-4">
                 Black Design comes with three pre-built pages to help you get
                 started faster. You can change the text and images and you're
                 good to go.
               </p>
               <a
-                class=" btn btn-warning mt-4"
+                class="btn btn-warning mt-4"
                 href="./docs/1.0/components/alerts.html"
               >
                 See all components
               </a>
             </div>
-            <div class=" col-lg-6">
+            <div class="col-lg-6">
               <carousel [showIndicators]="false">
                 <slide>
                   <img
                     alt="First slide"
-                    class=" d-block w-100"
+                    class="d-block w-100"
                     src="assets/img/denys.jpg"
                   />
                 </slide>
                 <slide>
                   <img
                     alt="Second slide"
-                    class=" d-block w-100"
+                    class="d-block w-100"
                     src="assets/img/fabien-bazanegue.jpg"
                   />
                 </slide>
                 <slide>
                   <img
                     alt="Third slide"
-                    class=" d-block w-100"
+                    class="d-block w-100"
                     src="assets/img/mark-finn.jpg"
                   />
                 </slide>
@@ -1499,30 +1500,30 @@
         </div>
       </div>
     </div>
-    <div class=" section section-nucleo-icons">
-      <img class=" path" src="assets/img/path3.png" />
+    <div class="section section-nucleo-icons">
+      <img class="path" src="assets/img/path3.png" />
 
-      <div class=" container">
-        <div class=" row justify-content-center">
-          <div class=" col-lg-8 col-md-12">
-            <h2 class=" title">Nucleo Icons</h2>
-            <h4 class=" description">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12">
+            <h2 class="title">Nucleo Icons</h2>
+            <h4 class="description">
               BLK• Design System PRO comes with 100 custom icons made by our
               friends from NucleoApp. The official package contains over 2.100
               thin icons which are looking great in combination with BLK•
               Design System PRO Make sure you check all of them and use those
               that you like the most.
             </h4>
-            <div class=" btn-wrapper">
+            <div class="btn-wrapper">
               <a
-                class=" btn btn-primary btn-round"
+                class="btn btn-primary btn-round"
                 href="./docs/1.0/foundation/icons.html"
                 target="_blank"
               >
                 View Demo Icons
               </a>
               <a
-                class=" btn btn-primary btn-simple btn-round btn-lg"
+                class="btn btn-primary btn-simple btn-round btn-lg"
                 href="https://nucleoapp.com/?ref=1712"
                 target="_blank"
               >
@@ -1531,117 +1532,117 @@
             </div>
           </div>
         </div>
-        <div class=" blur-hover">
+        <div class="blur-hover">
           <a href="./docs/1.0/foundation/icons.html">
-            <div class=" icons-container blur-item on-screen mt-5">
-              <i class=" icon tim-icons icon-coins"> </i>
-              <i class=" icon icon-sm tim-icons icon-spaceship"> </i>
-              <i class=" icon icon-sm tim-icons icon-money-coins"> </i>
-              <i class=" icon icon-sm tim-icons icon-link-72"> </i>
-              <i class=" icon tim-icons icon-send"> </i>
-              <i class=" icon tim-icons icon-mobile"> </i>
-              <i class=" icon tim-icons icon-wifi"> </i>
-              <i class=" icon icon-sm tim-icons icon-key-25"> </i>
-              <i class=" icon icon-sm tim-icons icon-atom"> </i>
-              <i class=" icon icon-sm tim-icons icon-satisfied"> </i>
-              <i class=" icon tim-icons icon-gift-2"> </i>
-              <i class=" icon tim-icons icon-tap-02"> </i>
-              <i class=" icon tim-icons icon-wallet-43"> </i>
+            <div class="icons-container blur-item on-screen mt-5">
+              <i class="icon tim-icons icon-coins"> </i>
+              <i class="icon icon-sm tim-icons icon-spaceship"> </i>
+              <i class="icon icon-sm tim-icons icon-money-coins"> </i>
+              <i class="icon icon-sm tim-icons icon-link-72"> </i>
+              <i class="icon tim-icons icon-send"> </i>
+              <i class="icon tim-icons icon-mobile"> </i>
+              <i class="icon tim-icons icon-wifi"> </i>
+              <i class="icon icon-sm tim-icons icon-key-25"> </i>
+              <i class="icon icon-sm tim-icons icon-atom"> </i>
+              <i class="icon icon-sm tim-icons icon-satisfied"> </i>
+              <i class="icon tim-icons icon-gift-2"> </i>
+              <i class="icon tim-icons icon-tap-02"> </i>
+              <i class="icon tim-icons icon-wallet-43"> </i>
             </div>
-            <span class=" blur-hidden h5 text-primary">
+            <span class="blur-hidden h5 text-primary">
               Eplore all the 21.000+ Nucleo Icons
             </span>
           </a>
         </div>
       </div>
     </div>
-    <div class=" section section-signup">
-      <div class=" container">
-        <div class=" squares square-1"></div>
-        <div class=" squares square-2"></div>
-        <div class=" squares square-3"></div>
-        <div class=" squares square-4"></div>
-        <div class=" row row-grid justify-content-between align-items-center">
-          <div class=" col-lg-6">
-            <h3 class=" display-3 text-white">
+    <div class="section section-signup">
+      <div class="container">
+        <div class="squares square-1"></div>
+        <div class="squares square-2"></div>
+        <div class="squares square-3"></div>
+        <div class="squares square-4"></div>
+        <div class="row row-grid justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <h3 class="display-3 text-white">
               A beautiful Black Design
-              <span class=" text-white"> completed with examples </span>
+              <span class="text-white"> completed with examples </span>
             </h3>
-            <p class=" text-white mb-3">
+            <p class="text-white mb-3">
               The Design System comes with four pre-built pages to help you get
               started faster. You can change the text and images and you're good
               to go. More importantly, looking at them will give you a picture
               of what you can built with this powerful Bootstrap 4 Design
               System.
             </p>
-            <div class=" btn-wrapper">
-              <a class=" btn btn-info" href="examples/register-page.html">
+            <div class="btn-wrapper">
+              <a class="btn btn-info" href="examples/register-page.html">
                 Register Page
               </a>
             </div>
           </div>
-          <div class=" col-lg-6 mb-lg-auto">
-            <div class=" card card-register">
-              <div class=" card-header">
+          <div class="col-lg-6 mb-lg-auto">
+            <div class="card card-register">
+              <div class="card-header">
                 <img
                   alt="Card image"
-                  class=" card-img"
+                  class="card-img"
                   src="assets/img/square1.png"
                 />
 
-                <h4 class=" card-title">Register</h4>
+                <h4 class="card-title">Register</h4>
               </div>
-              <div class=" card-body">
-                <form class=" form">
-                  <div class=" input-group">
-                    <div class=" input-group-prepend">
-                      <div class=" input-group-text">
-                        <i class=" tim-icons icon-single-02"> </i>
+              <div class="card-body">
+                <form class="form">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="tim-icons icon-single-02"> </i>
                       </div>
                     </div>
                     <input
-                      class=" form-control"
+                      class="form-control"
                       placeholder="Full Name"
                       type="text"
                     />
                   </div>
-                  <div class=" input-group">
-                    <div class=" input-group-prepend">
-                      <div class=" input-group-text">
-                        <i class=" tim-icons icon-email-85"> </i>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="tim-icons icon-email-85"> </i>
                       </div>
                     </div>
                     <input
-                      class=" form-control"
+                      class="form-control"
                       placeholder="Email"
                       type="text"
                     />
                   </div>
-                  <div class=" input-group">
-                    <div class=" input-group-prepend">
-                      <div class=" input-group-text">
-                        <i class=" tim-icons icon-lock-circle"> </i>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="tim-icons icon-lock-circle"> </i>
                       </div>
                     </div>
                     <input
-                      class=" form-control"
+                      class="form-control"
                       placeholder="Password"
                       type="text"
                     />
                   </div>
-                  <div class=" form-check text-left">
-                    <label class=" form-check-label">
-                      <input class=" form-check-input" type="checkbox" />
+                  <div class="form-check text-left">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" />
 
-                      <span class=" form-check-sign"> </span> I agree to the
+                      <span class="form-check-sign"> </span> I agree to the
                       <a href="javascript:void(0)"> terms and conditions </a> .
                     </label>
                   </div>
                 </form>
               </div>
-              <div class=" card-footer">
+              <div class="card-footer">
                 <a
-                  class=" btn btn-info btn-round btn-lg"
+                  class="btn btn-info btn-round btn-lg"
                   href="javascript:void(0)"
                 >
                   Get Started
@@ -1652,37 +1653,37 @@
         </div>
       </div>
     </div>
-    <div class=" section section-examples" data-background-color="black">
-      <img class=" path" src="assets/img/path1.png" />
+    <div class="section section-examples" data-background-color="black">
+      <img class="path" src="assets/img/path1.png" />
 
-      <div class=" space-50"></div>
-      <div class=" container text-center">
-        <div class=" row">
-          <div class=" col-sm-6">
+      <div class="space-50"></div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-6">
             <a href="examples/landing-page.html">
               <img
                 alt="Image"
-                class=" img-raised"
+                class="img-raised"
                 src="assets/img/landing-page.png"
               />
             </a>
             <a
-              class=" btn btn-simple btn-primary btn-round"
+              class="btn btn-simple btn-primary btn-round"
               href="examples/landing-page.html"
             >
               View Landing Page
             </a>
           </div>
-          <div class=" col-sm-6">
+          <div class="col-sm-6">
             <a href="examples/profile-page.html">
               <img
                 alt="Image"
-                class=" img-raised"
+                class="img-raised"
                 src="assets/img/profile-page.png"
               />
             </a>
             <a
-              class=" btn btn-simple btn-primary btn-round"
+              class="btn btn-simple btn-primary btn-round"
               href="examples/profile-page.html"
             >
               View Profile Page
@@ -1692,26 +1693,26 @@
       </div>
     </div>
     <div
-      class=" section section-download"
+      class="section section-download"
       data-background-color="black"
       id="#download-section"
     >
-      <img class=" path" src="assets/img/path1.png" />
+      <img class="path" src="assets/img/path1.png" />
 
-      <div class=" container">
-        <div class=" row justify-content-md-center">
-          <div class=" text-center col-md-12 col-lg-8">
-            <h2 class=" title">Do you love this Bootstrap 4 Design System?</h2>
-            <h4 class=" description">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="text-center col-md-12 col-lg-8">
+            <h2 class="title">Do you love this Bootstrap 4 Design System?</h2>
+            <h4 class="description">
               Cause if you do, it can be yours for FREE. Hit the button below to
               navigate to Creative Tim where you can find the design system in
               HTML format. Start a new project or give an old Bootstrap project
               a new look!
             </h4>
           </div>
-          <div class=" text-center col-md-12 col-lg-8">
+          <div class="text-center col-md-12 col-lg-8">
             <a
-              class=" btn btn-primary btn-round btn-lg"
+              class="btn btn-primary btn-round btn-lg"
               href="https://www.creative-tim.com/product/blk-design-system"
               role="button"
             >
@@ -1729,31 +1730,31 @@
 
         <br />
 
-        <div class=" row row-grid align-items-center my-md">
-          <div class=" col-lg-6">
-            <h3 class=" text-primary font-weight-light mb-2">
+        <div class="row row-grid align-items-center my-md">
+          <div class="col-lg-6">
+            <h3 class="text-primary font-weight-light mb-2">
               Thank you for supporting us!
             </h3>
-            <h4 class=" mb-0 font-weight-light">
+            <h4 class="mb-0 font-weight-light">
               Let's get in touch on any of these platforms.
             </h4>
           </div>
-          <div class=" col-lg-6 text-lg-center btn-wrapper">
-            <a class=" btn btn-icon btn-twitter btn-round btn-lg" id="twitter">
-              <i class=" fab fa-twitter"> </i>
+          <div class="col-lg-6 text-lg-center btn-wrapper">
+            <a class="btn btn-icon btn-twitter btn-round btn-lg" id="twitter">
+              <i class="fab fa-twitter"> </i>
             </a>
             <a
-              class=" btn btn-icon btn-facebook btn-round btn-lg"
+              class="btn btn-icon btn-facebook btn-round btn-lg"
               id="facebook"
             >
-              <i class=" fab fa-facebook-square"> </i>
+              <i class="fab fa-facebook-square"> </i>
             </a>
             <a
-              class=" btn btn-icon btn-github btn-round btn-lg"
+              class="btn btn-icon btn-github btn-round btn-lg"
               href="https://github.com/creativetimofficial"
               target="_blank"
             >
-              <i class=" fab fa-github"> </i>
+              <i class="fab fa-github"> </i>
             </a>
           </div>
         </div>
@@ -1763,26 +1764,26 @@
       aria-hidden="true"
       aria-labelledby="myModalLabel"
       bsModal
-      class=" modal fade"
+      class="modal fade"
       #myModal="bs-modal"
       id="myModal"
       role="dialog"
       tabindex="-1"
     >
-      <div class=" modal-dialog">
-        <div class=" modal-content">
-          <div class=" modal-header justify-content-center">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
             <button
               aria-hidden="true"
-              class=" close"
+              class="close"
               data-dismiss="modal"
               type="button"
             >
-              <i class=" tim-icons icon-simple-remove"> </i>
+              <i class="tim-icons icon-simple-remove"> </i>
             </button>
-            <h4 class=" title title-up">Modal title</h4>
+            <h4 class="title title-up">Modal title</h4>
           </div>
-          <div class=" modal-body">
+          <div class="modal-body">
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
@@ -1793,9 +1794,9 @@
               into your mouth.
             </p>
           </div>
-          <div class=" modal-footer">
-            <button class=" btn btn-default" type="button">Nice Button</button>
-            <button class=" btn btn-danger" data-dismiss="modal" type="button">
+          <div class="modal-footer">
+            <button class="btn btn-default" type="button">Nice Button</button>
+            <button class="btn btn-danger" data-dismiss="modal" type="button">
               Close
             </button>
           </div>
@@ -1806,36 +1807,36 @@
       aria-hidden="true"
       aria-labelledby="myModalLabel"
       bsModal
-      class=" modal fade modal-mini modal-primary modal-mini"
+      class="modal fade modal-mini modal-primary modal-mini"
       #myModal1="bs-modal"
       id="myModal1"
       role="dialog"
       tabindex="-1"
     >
-      <div class=" modal-dialog">
-        <div class=" modal-content">
-          <div class=" modal-header justify-content-center">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
             <button
               aria-hidden="true"
-              class=" close"
+              class="close"
               data-dismiss="modal"
               type="button"
             >
-              <i class=" tim-icons icon-simple-remove text-white"> </i>
+              <i class="tim-icons icon-simple-remove text-white"> </i>
             </button>
-            <div class=" modal-profile">
-              <i class=" tim-icons icon-single-02"> </i>
+            <div class="modal-profile">
+              <i class="tim-icons icon-single-02"> </i>
             </div>
           </div>
-          <div class=" modal-body">
+          <div class="modal-body">
             <p>Always have an access to your profile</p>
           </div>
-          <div class=" modal-footer">
-            <button class=" btn btn-link btn-neutral" type="button">
+          <div class="modal-footer">
+            <button class="btn btn-link btn-neutral" type="button">
               Back
             </button>
             <button
-              class=" btn btn-link btn-neutral"
+              class="btn btn-link btn-neutral"
               data-dismiss="modal"
               type="button"
             >
@@ -1849,81 +1850,81 @@
       aria-hidden="true"
       aria-labelledby="myModalLabel"
       bsModal
-      class=" modal fade modal-black"
+      class="modal fade modal-black"
       #myModal2="bs-modal"
       id="myModal2"
       role="dialog"
       tabindex="-1"
     >
-      <div class=" modal-dialog">
-        <div class=" modal-content">
-          <div class=" modal-header justify-content-center">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
             <button
               aria-hidden="true"
-              class=" close"
+              class="close"
               data-dismiss="modal"
               type="button"
             >
-              <i class=" tim-icons icon-simple-remove text-white"> </i>
+              <i class="tim-icons icon-simple-remove text-white"> </i>
             </button>
-            <div class=" text-muted text-center ml-auto mr-auto">
-              <h3 class=" mb-0">Sign in with</h3>
+            <div class="text-muted text-center ml-auto mr-auto">
+              <h3 class="mb-0">Sign in with</h3>
             </div>
           </div>
-          <div class=" modal-body">
-            <div class=" btn-wrapper text-center">
-              <a class=" btn btn-neutral btn-icon" href="#">
+          <div class="modal-body">
+            <div class="btn-wrapper text-center">
+              <a class="btn btn-neutral btn-icon" href="javascript:void(0)">
                 <img src="assets/img/github.svg" />
               </a>
-              <a class=" btn btn-neutral btn-icon" href="#">
+              <a class="btn btn-neutral btn-icon" href="javascript:void(0)">
                 <img src="assets/img/google.svg" />
               </a>
             </div>
-            <div class=" text-center text-muted mb-4 mt-3">
+            <div class="text-center text-muted mb-4 mt-3">
               <small> Or sign in with credentials </small>
             </div>
             <form role="form">
-              <div class=" form-group mb-3">
-                <div class=" input-group input-group-alternative">
-                  <div class=" input-group-prepend">
-                    <span class=" input-group-text">
-                      <i class=" tim-icons icon-email-85"> </i>
+              <div class="form-group mb-3">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="tim-icons icon-email-85"> </i>
                     </span>
                   </div>
                   <input
-                    class=" form-control"
+                    class="form-control"
                     placeholder="Email"
                     type="email"
                   />
                 </div>
               </div>
-              <div class=" form-group">
-                <div class=" input-group input-group-alternative">
-                  <div class=" input-group-prepend">
-                    <span class=" input-group-text">
-                      <i class=" tim-icons icon-key-25"> </i>
+              <div class="form-group">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="tim-icons icon-key-25"> </i>
                     </span>
                   </div>
                   <input
-                    class=" form-control"
+                    class="form-control"
                     placeholder="Password"
                     type="password"
                   />
                 </div>
               </div>
-              <div class=" form-check mt-3">
-                <label class=" form-check-label">
+              <div class="form-check mt-3">
+                <label class="form-check-label">
                   <input
                     checked="checked"
-                    class=" form-check-input"
+                    class="form-check-input"
                     type="checkbox"
                   />
 
-                  <span class=" form-check-sign"> </span> Remember me!
+                  <span class="form-check-sign"> </span> Remember me!
                 </label>
               </div>
-              <div class=" text-center">
-                <button class=" btn btn-primary my-4" type="button">
+              <div class="text-center">
+                <button class="btn btn-primary my-4" type="button">
                   Sign in
                 </button>
               </div>
@@ -1933,79 +1934,79 @@
       </div>
     </div>
   </div>
-  <footer class=" footer">
-    <div class=" container">
-      <div class=" row">
-        <div class=" col-md-3"><h1 class=" title">BLK•</h1></div>
-        <div class=" col-md-3">
-          <ul class=" nav">
-            <li class=" nav-item">
-              <a class=" nav-link" href="./index.html"> Home </a>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"><h1 class="title">BLK•</h1></div>
+        <div class="col-md-3">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"> Home </a>
             </li>
-            <li class=" nav-item">
-              <a class=" nav-link" href="./examples/landing-page.html">
+            <li class="nav-item">
+              <a class="nav-link" href="./examples/landing-page.html">
                 Landing
               </a>
             </li>
-            <li class=" nav-item">
-              <a class=" nav-link" href="./examples/register-page.html">
+            <li class="nav-item">
+              <a class="nav-link" href="./examples/register-page.html">
                 Register
               </a>
             </li>
-            <li class=" nav-item">
-              <a class=" nav-link" href="./examples/profile-page.html">
+            <li class="nav-item">
+              <a class="nav-link" href="./examples/profile-page.html">
                 Profile
               </a>
             </li>
           </ul>
         </div>
-        <div class=" col-md-3">
-          <ul class=" nav">
-            <li class=" nav-item">
-              <a class=" nav-link" href="https://creative-tim.com/contact-us">
+        <div class="col-md-3">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://creative-tim.com/contact-us">
                 Contact Us
               </a>
             </li>
-            <li class=" nav-item">
-              <a class=" nav-link" href="https://creative-tim.com/about-us">
+            <li class="nav-item">
+              <a class="nav-link" href="https://creative-tim.com/about-us">
                 About Us
               </a>
             </li>
-            <li class=" nav-item">
-              <a class=" nav-link" href="https://creative-tim.com/blog">
+            <li class="nav-item">
+              <a class="nav-link" href="https://creative-tim.com/blog">
                 Blog
               </a>
             </li>
-            <li class=" nav-item">
-              <a class=" nav-link" href="https://opensource.org/licenses/MIT">
+            <li class="nav-item">
+              <a class="nav-link" href="https://opensource.org/licenses/MIT">
                 License
               </a>
             </li>
           </ul>
         </div>
-        <div class=" col-md-3">
-          <h3 class=" title">Follow us:</h3>
-          <div class=" btn-wrapper profile">
+        <div class="col-md-3">
+          <h3 class="title">Follow us:</h3>
+          <div class="btn-wrapper profile">
             <a
-              class=" btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple"
               href="https://twitter.com/creativetim"
               target="_blank"
             >
-              <i class=" fab fa-twitter"> </i>
+              <i class="fab fa-twitter"> </i>
             </a>
             <a
-              class=" btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple"
               href="https://www.facebook.com/creativetim"
               target="_blank"
             >
-              <i class=" fab fa-facebook-square"> </i>
+              <i class="fab fa-facebook-square"> </i>
             </a>
             <a
-              class=" btn btn-icon btn-neutral btn-round btn-simple"
+              class="btn btn-icon btn-neutral btn-round btn-simple"
               href="https://dribbble.com/creativetim"
               target="_blank"
             >
-              <i class=" fab fa-dribbble"> </i>
+              <i class="fab fa-dribbble"> </i>
             </a>
           </div>
         </div>
