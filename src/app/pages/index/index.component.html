@@ -948,27 +948,23 @@
             <br />
 
             <h3 class="mb-5">Navigation Pills</h3>
-            <ul class="nav nav-pills nav-pills-primary nav-pills-icons">
-              <li class="nav-item">
-                <a
-                  class="nav-link active show"
-                  data-toggle="tab"
-                  href="#link7"
-                >
+            <tabset type="pills" class="nav-pills-primary nav-pills-icons">
+              <tab>
+                <ng-template tabHeading>
                   <i class="tim-icons icon-atom"> </i> Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#link8">
-                  <i class="tim-icons icon-chat-33"> </i> Messages
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#link9">
+                </ng-template>
+              </tab>
+              <tab>
+                <ng-template tabHeading>
+                <i class="tim-icons icon-chat-33"> </i> Messages
+                </ng-template>
+              </tab>
+              <tab>
+                <ng-template tabHeading>
                   <i class="tim-icons icon-settings-gear-63"> </i> Settings
-                </a>
-              </li>
-            </ul>
+                </ng-template>
+              </tab>
+            </tabset>
           </div>
           <div class="col-md-6">
             <h3 class="mb-5">Pagination</h3>
@@ -982,12 +978,12 @@
             previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"> </pagination> <br />
 
             <h3 class="mb-5">Labels</h3>
-            <span class="badge badge-default"> Default </span>
-            <span class="badge badge-primary"> Primary </span>
-            <span class="badge badge-success"> Success </span>
-            <span class="badge badge-info"> Info </span>
-            <span class="badge badge-warning"> Warning </span>
-            <span class="badge badge-danger"> Danger </span>
+            <span class="badge badge-default mr-1"> Default </span>
+            <span class="badge badge-primary mr-1"> Primary </span>
+            <span class="badge badge-success mr-1"> Success </span>
+            <span class="badge badge-info mr-1"> Info </span>
+            <span class="badge badge-warning mr-1"> Warning </span>
+            <span class="badge badge-danger mr-1"> Danger </span>
             <span class="badge badge-neutral"> Neutral </span>
           </div>
         </div>
