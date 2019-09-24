@@ -994,80 +994,35 @@
       <div class="container">
         <div class="space"></div>
         <h3>Notifications</h3>
-        <alert class="alert-with-icon" [type]="primary">
-          <button
-            aria-hidden="true"
-            aria-label="Close"
-            class="close"
-            data-dismiss="alert"
-            type="button"
-          >
-            <i class="tim-icons icon-simple-remove"> </i>
-          </button>
+        <alert class="alert-with-icon" [type]="'primary alert-with-icon'"  [dismissible]="true">
           <span class="tim-icons icon-coins" data-notify="icon"> </span>
           <span>
             <b> Congrats! - </b> This is a regular notification made with
             ".alert-primary"
           </span>
         </alert>
-        <alert class="alert-with-icon" [type]="info">
-          <button
-            aria-hidden="true"
-            aria-label="Close"
-            class="close"
-            data-dismiss="alert"
-            type="button"
-          >
-            <i class="tim-icons icon-simple-remove"> </i>
-          </button>
+        <alert class="alert-with-icon" [type]="'info alert-with-icon'" [dismissible]="true">
           <span class="tim-icons icon-trophy" data-notify="icon"> </span>
           <span>
             <b> Heads up! - </b> This is a regular notification made with
             ".alert-info"
           </span>
         </alert>
-        <alert class="alert-with-icon" [type]="success">
-          <button
-            aria-hidden="true"
-            aria-label="Close"
-            class="close"
-            data-dismiss="alert"
-            type="button"
-          >
-            <i class="tim-icons icon-simple-remove"> </i>
-          </button>
+        <alert class="alert-with-icon" [type]="'success alert-with-icon'" [dismissible]="true">
           <span class="tim-icons icon-bell-55" data-notify="icon"> </span>
           <span>
             <b> Well done! - </b> This is a regular notification made with
             ".alert-success"
           </span>
         </alert>
-        <alert class="alert-with-icon" [type]="warning">
-          <button
-            aria-hidden="true"
-            aria-label="Close"
-            class="close"
-            data-dismiss="alert"
-            type="button"
-          >
-            <i class="tim-icons icon-simple-remove"> </i>
-          </button>
+        <alert class="alert-with-icon" [type]="'warning alert-with-icon'" [dismissible]="true">
           <span class="tim-icons icon-bulb-63" data-notify="icon"> </span>
           <span>
             <b> Warning! - </b> This is a regular notification made with
             ".alert-warning"
           </span>
         </alert>
-        <alert class="alert-with-icon" [type]="danger">
-          <button
-            aria-hidden="true"
-            aria-label="Close"
-            class="close"
-            data-dismiss="alert"
-            type="button"
-          >
-            <i class="tim-icons icon-simple-remove"> </i>
-          </button>
+        <alert class="alert-with-icon" [type]="'danger alert-with-icon'" [dismissible]="true">
           <span class="tim-icons icon-support-17" data-notify="icon"> </span>
           <span>
             <b> Oh snap! - </b> This is a regular notification made with
