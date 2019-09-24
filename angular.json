@@ -28,7 +28,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/scss/blk-design-system.scss",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/scss/blk-design-system.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true
