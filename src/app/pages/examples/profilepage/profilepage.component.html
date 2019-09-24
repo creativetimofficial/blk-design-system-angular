@@ -11,7 +11,7 @@
         placement="bottom"
         tooltip="Designed and Coded by Creative Tim"
       >
-        <span> BLK• </span> Design System
+        <span> BLK• </span> Design System Angular
       </a>
       <button
         aria-controls="navigation-index"
@@ -122,14 +122,14 @@
           </p>
           <div class="btn-wrapper profile pt-3">
             <a
-              class="btn btn-icon btn-twitter btn-round"
+              class="btn btn-icon btn-twitter btn-round mr-1"
               href="https://twitter.com/creativetim"
               target="_blank"
             >
               <i class="fab fa-twitter"> </i>
             </a>
             <a
-              class="btn btn-icon btn-facebook btn-round"
+              class="btn btn-icon btn-facebook btn-round mr-1"
               href="https://www.facebook.com/creativetim"
               target="_blank"
             >
@@ -155,25 +155,8 @@
               <h4 class="title">Transactions</h4>
             </div>
             <div class="card-body">
-              <ul class="nav nav-tabs nav-tabs-primary justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#linka">
-                    Wallet
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#linkb">
-                    Send
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#linkc">
-                    News
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content tab-subcategories">
-                <div class="tab-pane active" id="linka">
+              <tabset class="nav-tabs-primary justify-content-center tab-subcategories">
+                <tab heading="Wallet">
                   <div class="table-responsive">
                     <table class="table tablesorter" id="plain-table">
                       <thead class="text-primary">
@@ -202,8 +185,8 @@
                       </tbody>
                     </table>
                   </div>
-                </div>
-                <div class="tab-pane" id="linkb">
+                </tab>
+                <tab heading="Send">
                   <div class="row">
                     <label class="col-sm-3 col-form-label"> Pay to </label>
                     <div class="col-sm-9">
@@ -238,8 +221,8 @@
                   >
                     <i class="tim-icons icon-send"> </i>
                   </button>
-                </div>
-                <div class="tab-pane" id="linkc">
+                </tab>
+                <tab heading="News">
                   <div class="table-responsive">
                     <table class="table tablesorter" id="plain-table">
                       <thead class="text-primary">
@@ -260,8 +243,8 @@
                       </tbody>
                     </table>
                   </div>
-                </div>
-              </div>
+                </tab>
+              </tabset>
             </div>
           </div>
         </div>
@@ -321,7 +304,7 @@
           </p>
           <div class="btn-wrapper pt-3">
             <button
-              class="btn btn-simple btn-primary"
+              class="btn btn-simple btn-primary mr-1"
               href="javascript:void(0)"
             >
               <i class="tim-icons icon-book-bookmark"> </i> Bookmark

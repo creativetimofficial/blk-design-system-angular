@@ -3,5 +3,15 @@
   color: #e14eca;
 }
 tabset .tab-content{
-  padding: 20px 0 50px;
+  padding: 20px 0 0;
+}
+.justify-content-center .nav-tabs{
+  justify-content: center !important;
+}
+.tab-subcategories{
+  .tab-content{
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
