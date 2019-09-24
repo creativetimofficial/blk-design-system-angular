@@ -20,6 +20,7 @@
     "@angular/platform-browser": "8.2.7",
     "@angular/platform-browser-dynamic": "8.2.7",
     "@angular/router": "8.2.7",
+    "chart.js": "2.8.0",
     "core-js": "3.2.1",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ngx-bootstrap": "5.1.2",

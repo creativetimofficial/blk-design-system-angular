@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   constructor( private renderer : Renderer, public location: Location, @Inject(DOCUMENT) document) {}
   @HostListener('window:scroll', ['$event'])
     onWindowScroll(e) {
-       if (window.pageYOffset > 550) {
+       if (window.pageYOffset > 100) {
          var element = document.getElementById('navbar-top');
          if (element) {
           element.classList.remove('navbar-transparent');
