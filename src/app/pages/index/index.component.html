@@ -377,15 +377,15 @@
           <div class="col-sm-6 col-lg-3">
             <p class="category">Toggle Buttons</p>
             <bSwitch
-                [switch-on-color]="'primary'"
-                [switch-off-color]="'primary'"
+                [switch-on-color]="'danger'"
+                [switch-off-color]="'danger'"
                 [switch-off-text]="' '"
                 [switch-on-text]="' '">
             </bSwitch>
             <br>
             <bSwitch
-                [switch-on-color]="'primary'"
-                [switch-off-color]="'primary'">
+                [switch-on-color]="'danger'"
+                [switch-off-color]="'danger'">
             </bSwitch>
           </div>
           <div class="col-sm-6 col-lg-3">
@@ -393,7 +393,7 @@
             <div class="slider" id="sliderRegular"></div>
             <br />
 
-            <div class="slider slider-primary" id="sliderDouble"></div>
+            <div class="slider slider-danger" id="sliderDouble"></div>
           </div>
         </div>
       </div>
@@ -820,7 +820,7 @@
             </div>
             <div class="card">
               <div class="card-header">
-                <tabset class="nav-tabs-primary">
+                <tabset class="nav-tabs-danger">
                   <tab>
                     <ng-template tabHeading>
                       <i class="tim-icons icon-spaceship"> </i> Profile
@@ -880,7 +880,7 @@
             </div>
             <div class="card">
               <div class="card-header">
-                <tabset class="nav-tabs-primary">
+                <tabset class="nav-tabs-danger">
                   <tab heading="Profile">
                     <p>
                       These cases are perfectly simple and easy to distinguish.
@@ -939,16 +939,16 @@
                 <span class="progress-value"> 25% </span>
               </progressbar>
             </div>
-            <div class="progress-container progress-primary">
-              <span class="progress-badge"> Primary </span>
-              <progressbar class="progress-bar-primary" [value]="60">
+            <div class="progress-container progress-danger">
+              <span class="progress-badge"> Danger </span>
+              <progressbar class="progress-bar-danger" [value]="60">
                 <span class="progress-value"> 60% </span>
               </progressbar>
             </div>
             <br />
 
             <h3 class="mb-5">Navigation Pills</h3>
-            <tabset type="pills" class="nav-pills-primary nav-pills-icons">
+            <tabset type="pills" class="nav-pills-danger nav-pills-icons">
               <tab>
                 <ng-template tabHeading>
                   <i class="tim-icons icon-atom"> </i> Home
@@ -969,12 +969,12 @@
           <div class="col-md-6">
             <h3 class="mb-5">Pagination</h3>
             <pagination
-              class="pagination-primary"
+              class="pagination-danger"
               [(ngModel)]="test"
               [totalItems]="30"
             >
             </pagination>
-            <pagination [boundaryLinks]="true" [totalItems]="45" [ngModel]="pagination"
+            <pagination class="pagination-danger" [boundaryLinks]="true" [totalItems]="45" [ngModel]="pagination"
             previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"> </pagination> <br />
 
             <h3 class="mb-5">Labels</h3>
@@ -1071,7 +1071,7 @@
               <div class="typography-line">
                 <span> Quote </span>
                 <blockquote>
-                  <p class="blockquote blockquote-primary">
+                  <p class="blockquote blockquote-danger">
                     "I will be the leader of a company that ends up being worth
                     billions of dollars, because I got the answers. I understand
                     culture. I am the nucleus. I think thatâs a responsibility
@@ -1199,7 +1199,7 @@
         <div class="row" id="modals">
           <div class="col-md-4">
             <button
-              class="btn btn-primary"
+              class="btn btn-danger"
               data-target="#myModal"
               (click)="myModal.show()"
             >
@@ -1237,7 +1237,7 @@
                 <input
                   bsDatepicker
                   class="form-control"
-                  data-datepicker-color="primary"
+                  data-datepicker-color="danger"
                   [bsConfig]="{ isAnimated: true, containerClass: 'theme-red' }"
                   [bsValue]="date"
                   id="datepicker"
@@ -1405,14 +1405,14 @@
             </h4>
             <div class="btn-wrapper">
               <a
-                class="btn btn-primary btn-round mr-1"
+                class="btn btn-danger btn-round mr-1"
                 href="https://demos.creative-tim.com/blk-design-system-angular/#/documentation/icons"
                 target="_blank"
               >
                 View Demo Icons
               </a>
               <a
-                class="btn btn-primary btn-simple btn-round btn-lg"
+                class="btn btn-danger btn-simple btn-round btn-lg"
                 href="https://nucleoapp.com/?ref=1712"
                 target="_blank"
               >
@@ -1438,7 +1438,7 @@
               <i class="icon tim-icons icon-tap-02"> </i>
               <i class="icon tim-icons icon-wallet-43"> </i>
             </div>
-            <span class="blur-hidden h5 text-primary">
+            <span class="blur-hidden h5 text-danger">
               Eplore all the 21.000+ Nucleo Icons
             </span>
           </a>
@@ -1465,7 +1465,7 @@
               System.
             </p>
             <div class="btn-wrapper">
-              <a class="btn btn-info" [routerLink]="['/register']">
+              <a class="btn btn-danger" [routerLink]="['/register']">
                 Register Page
               </a>
             </div>
@@ -1531,7 +1531,7 @@
               </div>
               <div class="card-footer">
                 <a
-                  class="btn btn-info btn-round btn-lg"
+                  class="btn btn-danger btn-round btn-lg"
                   href="javascript:void(0)"
                 >
                   Get Started
@@ -1557,7 +1557,7 @@
               />
             </a>
             <a
-              class="btn btn-simple btn-primary btn-round"
+              class="btn btn-simple btn-danger btn-round"
               [routerLink]="['/landing']"
             >
               View Landing Page
@@ -1572,7 +1572,7 @@
               />
             </a>
             <a
-              class="btn btn-simple btn-primary btn-round"
+              class="btn btn-simple btn-danger btn-round"
               [routerLink]="['/profile']"
             >
               View Profile Page
@@ -1601,7 +1601,7 @@
           </div>
           <div class="text-center col-md-12 col-lg-8">
             <a
-              class="btn btn-primary btn-round btn-lg"
+              class="btn btn-danger btn-round btn-lg"
               href="https://www.creative-tim.com/product/blk-design-system-angular"
               role="button"
             >
@@ -1621,7 +1621,7 @@
 
         <div class="row row-grid align-items-center my-md">
           <div class="col-lg-6">
-            <h3 class="text-primary font-weight-light mb-2">
+            <h3 class="text-danger font-weight-light mb-2">
               Thank you for supporting us!
             </h3>
             <h4 class="mb-0 font-weight-light">
@@ -1697,7 +1697,7 @@
       aria-hidden="true"
       aria-labelledby="myModalLabel"
       bsModal
-      class="modal fade modal-mini modal-primary modal-mini"
+      class="modal fade modal-mini modal-danger modal-mini"
       #myModal1="bs-modal"
       id="myModal1"
       role="dialog"

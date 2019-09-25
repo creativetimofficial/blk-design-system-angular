@@ -76,73 +76,63 @@ Within the download you'll find the following directories and files:
 
 ```
 Blk• Design System Angular
-.
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
+├── LICENSE.md
 ├── README.md
+├── angular.json
+├── e2e
+├── package-lock.json
 ├── package.json
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-└── src
-    ├── index.js
-    ├── variables
-    │   └── charts.jsx
-    ├── assets
-    │   ├── css
-    │   │   ├── blk-design-system-angular.css
-    │   │   ├── blk-design-system-angular.css.map
-    │   │   ├── blk-design-system-angular.min.css
-    │   │   └── nucleo-icons.css
-    │   ├── demo
-    │   │   └── demo.css
-    │   ├── fonts
-    │   │   ├── nucleo.eot
-    │   │   ├── nucleo.ttf
-    │   │   ├── nucleo.woff
-    │   │   └── nucleo.woff2
-    │   ├── img
-    │   └── scss
-    │       ├── blk-design-system-angular
-    │       │   ├── bootstrap
-    │       │   │   ├── mixins
-    │       │   │   └── utilities
-    │       │   ├── custom
-    │       │   │   ├── cards
-    │       │   │   ├── mixins
-    │       │   │   ├── sections
-    │       │   │   ├── utilities
-    │       │   │   └── vendor
-    │       │   └── react
-    │       │       └── react-differences.scss
-    │       └── blk-design-system-angular.scss
-    ├── components
-    │   ├── Footer
-    │   │   └── Footer.jsx
-    │   ├── Navbars
-    │   │   ├── ComponentsNavbar.jsx
-    │   │   └── ExamplesNavbar.jsx
-    │   └── PageHeader
-    │       └── PageHeader.jsx
-    └── views
-        ├── Index.jsx
-        ├── IndexSections
-        │   ├── Basics.jsx
-        │   ├── Download.jsx
-        │   ├── Examples.jsx
-        │   ├── JavaScript.jsx
-        │   ├── Navbars.jsx
-        │   ├── Notifications.jsx
-        │   ├── NucleoIcons.jsx
-        │   ├── Pagination.jsx
-        │   ├── Signup.jsx
-        │   ├── Tabs.jsx
-        │   └── Typography.jsx
-        └── examples
-            ├── LandingPage.jsx
-            ├── ProfilePage.jsx
-            └── RegisterPage.jsx
+├── src
+│   ├── app
+│   │   ├── app-routing.module.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.component.spec.ts
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   │   └── pages
+│   │       ├── examples
+│   │       │   ├── landingpage
+│   │       │   │   ├── landingpage.component.html
+│   │       │   │   └── landingpage.component.ts
+│   │       │   ├── profilepage
+│   │       │   │   ├── profilepage.component.html
+│   │       │   │   └── profilepage.component.ts
+│   │       │   └── registerpage
+│   │       │       ├── registerpage.component.html
+│   │       │       └── registerpage.component.ts
+│   │       ├── index
+│   │       │   ├── index.component.html
+│   │       │   └── index.component.ts
+│   │       └── pages.module.ts
+│   ├── assets
+│   │   ├── css
+│   │   │   └── nucleo-icons.css
+│   │   ├── demo
+│   │   ├── fonts
+│   │   ├── img
+│   │   └── scss
+│   │       ├── blk-design-system
+│   │       │   ├── angular
+│   │       │   ├── bootstrap
+│   │       │   └── custom
+│   │       └── blk-design-system.scss
+│   ├── browserslist
+│   ├── environments
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── karma.conf.js
+│   ├── main.ts
+│   ├── polyfills.ts
+│   ├── styles.scss
+│   ├── test.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.spec.json
+│   └── tslint.json
+├── tsconfig.json
+└── tslint.json
 ```
 
 

@@ -1,0 +1,8 @@
+.index-page .squares{
+  @include linear-gradient($danger-states, $danger);
+}
+.register-page, .section.section-signup{
+  .squares, .square {
+    @include linear-gradient($danger-states, $danger);
+  }
+}
