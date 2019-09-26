@@ -4,7 +4,7 @@
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/blk-design-system-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/blk-design-system-angular/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/blk-design-system-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/blk-design-system-angular/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 
-![Product Presentation Image](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/blk-design-system-angular.jpg?raw=true)
+![Product Presentation Image](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/opt_blk_angular_thumbnail.jpg?raw=true)
 
 **[Blk• Design  System Angular](http://demos.creative-tim.com/blk-design-system-angular/)** is a responsive Bootstrap 4 kit, developed using [Angular](https://angular.io/) and it is provided for free by Creative Tim. It is a beautiful cross-platform UI kit featuring over 70 elements and 3 templates.
 
@@ -44,7 +44,7 @@ Blk• Design System Angular is built on top of the much awaited Bootstrap 4 and
 
 | HTML | Angular | React |
 | --- | --- | --- |
-| [![BLK Design System  HTML](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system/opt_blk_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/blk-design-system)  | [![BLK Design System  Angular](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/blk-design-system-angular.jpg?raw=true)](https://www.creative-tim.com/product/blk-design-system-angular)| [![BLK Design System  React](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-react/blk-design-system-react.jpg?raw=true)](https://www.creative-tim.com/product/blk-design-system-react)
+| [![BLK Design System  HTML](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system/opt_blk_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/blk-design-system)  | [![BLK Design System  Angular](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/opt_blk_angular_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/blk-design-system-angular)| [![BLK Design System  React](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-react/blk-design-system-react.jpg?raw=true)](https://www.creative-tim.com/product/blk-design-system-react)
 
 ## Demo
 
@@ -52,7 +52,7 @@ Blk• Design System Angular is built on top of the much awaited Bootstrap 4 and
 | --- | --- | ---  |
 | [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/buttons.png?raw=true)](https://demos.creative-tim.com/blk-design-system-angular/#/)  | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/inputs.png?raw=true)](https://demos.creative-tim.com/blk-design-system-angular/#/)  | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/navbars.png?raw=true)](https://demos.creative-tim.com/blk-design-system-angular/#/)  
 
-| Login Page | Landing Page | Profile Page  |
+| Register Page | Landing Page | Profile Page  |
 | --- | --- | ---  |
 | [![Register Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/blk-design-system-angular/register.png)](https://demos.creative-tim.com/blk-design-system-angular/#/register)  | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/landing.png?raw=true)](https://demos.creative-tim.com/blk-design-system-angular/#/landing)  | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/blk-design-system-angular/profile.png?raw=true)](https://demos.creative-tim.com/blk-design-system-angular/#/profile)  
 
@@ -155,7 +155,7 @@ At present, we officially aim to support the last two versions of the following 
 
 | HTML | Angular | Vue  | React  |
 | --- | --- | ---  | ---  |
-| [![Black Dashboard  HTML](https://github.com/creativetimofficial/public-assets/blob/master/black-dashboard/black-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/black-dashboard) | [![Black Dashboard  Angular](https://github.com/creativetimofficial/public-assets/blob/master/black-dashboard-angular/black-dashboard-angular.jpg?raw=true)](https://www.creative-tim.com/product/black-dashboard-angular) | [![Vue Black Dashboard](https://github.com/creativetimofficial/public-assets/blob/master/vue-black-dashboard/vue-black-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/vue-black-dashboard)  | [![Black Dashboard React](https://github.com/creativetimofficial/public-assets/blob/master/black-dashboard-react/black-dashboard-react.jpg?raw=true)](https://www.creative-tim.com/product/black-dashboard-react)  |
+| [![Black Dashboard  HTML](https://github.com/creativetimofficial/public-assets/blob/master/black-dashboard/black-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/black-dashboard) | [![Black Dashboard  Angular](https://github.com/creativetimofficial/public-assets/blob/master/black-dashboard-angular/opt_bd_angular_thumbnail.jpg?raw=true)](https://www.creative-tim.com/product/black-dashboard-angular) | [![Vue Black Dashboard](https://github.com/creativetimofficial/public-assets/blob/master/vue-black-dashboard/vue-black-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/vue-black-dashboard)  | [![Black Dashboard React](https://github.com/creativetimofficial/public-assets/blob/master/black-dashboard-react/black-dashboard-react.jpg?raw=true)](https://www.creative-tim.com/product/black-dashboard-react)  |
 
 ## Reporting Issues
 
