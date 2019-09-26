@@ -1,23 +1,23 @@
-.info{
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 70px 0 30px;
+.info {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 70px 0 30px;
 
-    .icon{
-        color: $default;
+  .icon {
+    color: $default;
 
-        > i{
-            font-size: $h1-font-size;
-        }
+    > i {
+      font-size: $h1-font-size;
     }
-    .info-title{
-        color: $white;
-        margin: 0.875rem * 2 0 0.875rem;
-    }
-    p{
-        color: $opacity-gray-8;
-        line-height: 24px;
-    }
+  }
+  .info-title {
+    color: $white;
+    margin: 0.875rem * 2 0 0.875rem;
+  }
+  p {
+    color: $opacity-gray-8;
+    line-height: 24px;
+  }
 }
 
 hr {
@@ -46,26 +46,25 @@ hr {
   }
 }
 
-.info-horizontal{
-    .icon{
-        float: left;
-        margin-top: 24px;
-        margin-right: 10px;
+.info-horizontal {
+  .icon {
+    float: left;
+    margin-top: 24px;
+    margin-right: 10px;
 
-        >i{
-            font-size: $h1-font-size;
-        }
+    > i {
+      font-size: $h1-font-size;
     }
-    .description{
-        overflow: hidden;
-    }
-
+  }
+  .description {
+    overflow: hidden;
+  }
 }
 
 .icon {
   &.icon-primary {
     color: $primary;
-    }
+  }
   &.icon-info {
     color: $info;
   }
@@ -78,5 +77,4 @@ hr {
   &.icon-danger {
     color: $danger;
   }
-
 }

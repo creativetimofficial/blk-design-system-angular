@@ -1,113 +1,109 @@
 .card {
-    background: $card-black-background;
-    border: 0;
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-    box-shadow: $box-shadow;
+  background: $card-black-background;
+  border: 0;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: $box-shadow;
 
+  label {
+    color: rgba($white, 0.6);
+  }
 
-    label {
-      color: rgba($white, 0.6);
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+
+  .card-body {
+    padding: 15px;
+
+    &.table-full-width {
+      padding-left: 0;
+      padding-right: 0;
     }
 
     .card-title {
-      margin-bottom: .75rem;
+      color: $white;
+      text-transform: inherit;
+      font-weight: $font-weight-light;
+      margin-bottom: 0.75rem;
     }
 
-    .card-body {
-      padding: 15px;
+    .card-description,
+    .card-category {
+      color: rgba($white, 0.6);
+    }
+  }
 
-      &.table-full-width {
-        padding-left: 0;
-        padding-right: 0;
-      }
+  .card-header {
+    &:not([data-background-color]) {
+      background-color: transparent;
+    }
+    padding: 15px 15px 0;
+    border: 0;
+    color: rgba($white, 0.8);
 
-      .card-title {
-        color: $white;
-        text-transform: inherit;
-        font-weight: $font-weight-light;
-        margin-bottom: .75rem;
-      }
-
-      .card-description, .card-category {
-        color: rgba($white, 0.6);
-      }
-
+    .card-title {
+      color: $white;
+      font-weight: 100;
     }
 
-    .card-header {
-      &:not([data-background-color]) {
-        background-color: transparent;
-      }
-      padding: 15px 15px 0;
-      border: 0;
-      color: rgba($white,0.8);
-
-      .card-title{
-          color: $white;
-          font-weight: 100;
-      }
-
-      .card-category {
-        color: $dark-gray;
-        margin-bottom: 5px;
-        font-weight: 300;
-      }
+    .card-category {
+      color: $dark-gray;
+      margin-bottom: 5px;
+      font-weight: 300;
     }
+  }
 
-    .map {
-        border-radius: $border-radius-sm;
+  .map {
+    border-radius: $border-radius-sm;
 
-        &.map-big{
-          height: 420px;
-        }
+    &.map-big {
+      height: 420px;
     }
+  }
 
-    &.card-plain {
-      background: transparent;
-      box-shadow: none;
-    }
+  &.card-plain {
+    background: transparent;
+    box-shadow: none;
+  }
 
-    .image {
-        overflow: hidden;
-        height: 200px;
+  .image {
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  label {
+    font-size: $font-size-sm;
+    margin-bottom: 5px;
+  }
+
+  .card-footer {
+    background-color: transparent;
+    border: 0;
+    padding: 15px;
+
+    .stats {
+      i {
+        margin-right: 5px;
         position: relative;
+      }
     }
 
-    .avatar {
-        width: 30px;
-        height: 30px;
-        overflow: hidden;
-        border-radius: 50%;
-        margin-bottom: 15px;
+    h6 {
+      margin-bottom: 0;
+      padding: 7px 0;
     }
-
-    label{
-        font-size: $font-size-sm;
-        margin-bottom: 5px;
-
-    }
-
-    .card-footer{
-        background-color: transparent;
-        border: 0;
-        padding: 15px;
-
-
-        .stats{
-            i{
-                margin-right: 5px;
-                position: relative;
-
-            }
-        }
-
-        h6{
-          margin-bottom: 0;
-          padding: 7px 0;
-        }
-    }
+  }
 
   &.card-coin {
     border: 2px solid $default;
@@ -130,33 +126,32 @@
       .list-group-item {
         background-color: transparent;
         border: none;
-        padding: .4rem 1rem;
+        padding: 0.4rem 1rem;
       }
     }
   }
 }
 
-.card-body{
+.card-body {
   padding: $card-spacer-y;
 }
 
 @include media-breakpoint-down(sm) {
   .card.card-chart .card-header {
     .btn-group-toggle .tim-icons {
-      font-size: .875rem;
+      font-size: 0.875rem;
       top: -1px;
     }
   }
 }
 
 @include media-breakpoint-down(xs) {
-  .card.card-coin{
+  .card.card-coin {
     margin-top: 80px;
   }
 }
 
-
-.text-on-back{
+.text-on-back {
   position: relative;
   z-index: 1;
   font-size: 9.5em;
