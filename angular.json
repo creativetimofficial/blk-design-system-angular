@@ -140,5 +140,8 @@
       }
     }
   },
-  "defaultProject": "blk-design-system-angular"
+  "defaultProject": "blk-design-system-angular",
+  "cli": {
+    "analytics": false
+  }
 }

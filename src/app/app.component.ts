@@ -1,7 +1,7 @@
 import {
   Component,
   OnInit,
-  Renderer,
+  Renderer2,
   HostListener,
   Inject
 } from "@angular/core";
@@ -15,7 +15,7 @@ import { DOCUMENT } from "@angular/common";
 })
 export class AppComponent implements OnInit {
   constructor(
-    private renderer: Renderer,
+    private renderer: Renderer2,
     public location: Location,
     @Inject(DOCUMENT) document
   ) {}
