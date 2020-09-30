@@ -174,15 +174,15 @@ We use GitHub Issues as the official bug tracker for the BLK Design System Angul
 ## Useful Links
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref="blkdsa-github-readme") (earn money)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=blkdsa-github-readme) (earn money)
 - [Blog Creative Tim](http://blog.creative-tim.com/)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref="blkdsa-github-readme") from Creative Tim
-- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref="blkdsa-github-readme") from Creative Tim
-- [Angular Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref="blkdsa-github-readme") from Creative Tim
-- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-theme?ref="blkdsa-github-readme") from Creative Tim
-- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref="blkdsa-github-readme") from Creative Tim
-- [More products](https://www.creative-tim.com/bootstrap-themes?ref="blkdsa-github-readme") from Creative Tim
-- Check our Bundles [here](https://www.creative-tim.com/bundles?ref="blkdsa-github-readme")
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=blkdsa-github-readme) from Creative Tim
+- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=blkdsa-github-readme) from Creative Tim
+- [Angular Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=blkdsa-github-readme) from Creative Tim
+- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-theme?ref=blkdsa-github-readme) from Creative Tim
+- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=blkdsa-github-readme) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=blkdsa-github-readme) from Creative Tim
+- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=blkdsa-github-readme)
 
 ### Social Media
 
