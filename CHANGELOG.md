@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.0] 2021-01-05
+### Updates
+- update to Angular 11
+- update all dependencies to match Angular 11 version
+
 ## [1.1.0] 2020-03-11
 ### Updates
 - update to Angular 9
