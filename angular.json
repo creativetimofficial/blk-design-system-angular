@@ -33,8 +33,7 @@
               "src/assets/scss/blk-design-system.scss",
               "src/assets/demo/demo.css"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": []
           },
           "configurations": {
             "production": {
