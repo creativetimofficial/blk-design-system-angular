@@ -4,11 +4,14 @@
 /dist
 /tmp
 /out-tsc
+app/**/*.js
+app/**/*.js.map
 # Only exists if Bazel was run
 /bazel-out
 
 # dependencies
 /node_modules
+bower_components/
 
 # profiling files
 chrome-profiler-events.json
@@ -44,3 +47,14 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Assets
+
+/app/assets/img
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Firebase
+documentation/
