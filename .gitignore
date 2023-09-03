@@ -6,6 +6,7 @@
 /out-tsc
 app/**/*.js
 app/**/*.js.map
+/.angular
 # Only exists if Bazel was run
 /bazel-out
 
