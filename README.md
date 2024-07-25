@@ -24,6 +24,7 @@ Blk• Design System Angular is built on top of the much awaited Bootstrap 4 and
 * [Versions](#versions)
 * [Demo](#demo)
 * [Quick Start](#quick-start)
+* [Deploy](#deploy)
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
@@ -66,6 +67,11 @@ Blk• Design System Angular is built on top of the much awaited Bootstrap 4 and
 - [Download from Creative Tim](https://www.creative-tim.com/product/blk-design-system-angular).
 - Clone the repo: `git clone https://github.com/creativetimofficial/blk-design-system-angular.git`.
 
+## Deploy
+
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/blk-design-system-angular&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
 
 ## Documentation
 The documentation for the BLK Design System Angular is hosted at our [website](https://demos.creative-tim.com/blk-design-system-angular/#/documentation/overview).
